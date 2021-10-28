@@ -6,7 +6,7 @@
     "getScores": "node getAnonsRarity.mjs --quiet",
     "exportScores": "node getAnonsRarity.mjs --quiet --out > _results.log",
     "getScoresJson": "node getAnonsRarity.mjs --quiet --json",
-    "build": "cd vite-project && pnpm build && echo 'anons.rigwild.dev' > ./dist/CNAME",
+    "build": "pnpm exportScores && cd vite-project && pnpm build && echo 'anons.rigwild.dev' > ./dist/CNAME",
     "publish": "pnpm build && gh-pages -d vite-project/dist"
   },
   "author": "rigwild <me@rigwild.dev>",

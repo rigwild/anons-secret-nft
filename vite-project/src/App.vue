@@ -132,56 +132,56 @@ if (uriId()) {
             <td>backgrounds</td>
             <td>{{ anon.backgrounds }}</td>
             <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].traitPercent }}</td>
-            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].totalPercent }}</td>
+            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].score.toFixed(3) }}</td>
           </tr>
           <tr v-if="anon.basePerson">
             <td>basePerson</td>
             <td>{{ anon.basePerson }}</td>
             <td>{{ rarity.categories.basePerson.counts[anon.basePerson].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].traitPercent }}</td>
-            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].totalPercent }}</td>
+            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.basePerson.counts[anon.basePerson].score.toFixed(3) }}</td>
           </tr>
           <tr v-if="anon.head">
             <td>head</td>
             <td>{{ anon.head }}</td>
             <td>{{ rarity.categories.head.counts[anon.head].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.head.counts[anon.head].traitPercent }}</td>
-            <td>{{ rarity.categories.head.counts[anon.head].totalPercent }}</td>
+            <td>{{ rarity.categories.head.counts[anon.head].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.head.counts[anon.head].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.head.counts[anon.head].score.toFixed(3) }}</td>
           </tr>
           <tr v-if="anon.eyes">
             <td>eyes</td>
             <td>{{ anon.eyes }}</td>
             <td>{{ rarity.categories.eyes.counts[anon.eyes].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.eyes.counts[anon.eyes].traitPercent }}</td>
-            <td>{{ rarity.categories.eyes.counts[anon.eyes].totalPercent }}</td>
+            <td>{{ rarity.categories.eyes.counts[anon.eyes].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.eyes.counts[anon.eyes].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.eyes.counts[anon.eyes].score.toFixed(3) }}</td>
           </tr>
           <tr v-if="anon.clothes">
             <td>clothes</td>
             <td>{{ anon.clothes }}</td>
             <td>{{ rarity.categories.clothes.counts[anon.clothes].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.clothes.counts[anon.clothes].traitPercent }}</td>
-            <td>{{ rarity.categories.clothes.counts[anon.clothes].totalPercent }}</td>
+            <td>{{ rarity.categories.clothes.counts[anon.clothes].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.clothes.counts[anon.clothes].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.clothes.counts[anon.clothes].score.toFixed(3) }}</td>
           </tr>
           <tr v-if="anon.ears">
             <td>ears</td>
             <td>{{ anon.ears }}</td>
             <td>{{ rarity.categories.ears.counts[anon.ears].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.ears.counts[anon.ears].traitPercent }}</td>
-            <td>{{ rarity.categories.ears.counts[anon.ears].totalPercent }}</td>
+            <td>{{ rarity.categories.ears.counts[anon.ears].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.ears.counts[anon.ears].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.ears.counts[anon.ears].score.toFixed(3) }}</td>
           </tr>
           <tr v-if="anon.mouth">
             <td>mouth</td>
             <td>{{ anon.mouth }}</td>
             <td>{{ rarity.categories.mouth.counts[anon.mouth].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.mouth.counts[anon.mouth].traitPercent }}</td>
-            <td>{{ rarity.categories.mouth.counts[anon.mouth].totalPercent }}</td>
+            <td>{{ rarity.categories.mouth.counts[anon.mouth].traitPercent.toFixed(3) }}</td>
+            <td>{{ rarity.categories.mouth.counts[anon.mouth].totalPercent.toFixed(3) }}</td>
             <td>{{ rarity.categories.mouth.counts[anon.mouth].score.toFixed(3) }}</td>
           </tr>
         </tbody>

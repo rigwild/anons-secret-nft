@@ -9,8 +9,8 @@ const ngmi = uri => fetch(uri).then(res => res.json())
 const getTraits = category => ngmi(`https://api.anons.army/api/anons/${category}`).then(res => res.sort())
 const count = (data, category, trait) => data.filter(x => x[category] === trait).length
 const pad = (n, l = 3) => (n + '').padStart(l, ' ')
-const percent = (a, b) => parseFloat(((a / b) * 100).toFixed(2))
-const percentStr = (r, p = 5) => `${pad(r, p)} %`
+const percent = (a, b) => (a / b) * 100
+const percentStr = (r, p = 5) => `${pad(r.toFixed(2), p)} %`
 
 const [backgrounds, basePerson, head, eyes, clothes, ears, mouth] = await Promise.all([
   getTraits('backgrounds'),
@@ -22,12 +22,17 @@ const [backgrounds, basePerson, head, eyes, clothes, ears, mouth] = await Promis
   getTraits('mouths')
 ])
 const traits = { backgrounds, basePerson, head, eyes, clothes, ears, mouth }
-const traitsList = Object.keys(traits)
+const traitsCategories = Object.keys(traits)
 
 const data = await ngmi('https://api.anons.army/api/anons?size=580').then(res => res.content.filter(x => x.revealed))
 if (argv.out) await fs.writeJSON('_anons.json', data, { spaces: 2 })
 const mintedAnonsCount = data.length
 // console.log(data)
+
+// Replace anons null traits with "None"
+data.forEach(x => traitsCategories.forEach(category => x[category] === null && (x[category] = 'None')))
+// Add "None" traits
+traitsCategories.forEach(category => traits[category].push('None'))
 
 /**
  * @typedef {{ count: number; traitPercent: number; totalPercent: number; score: number }} TraitRarity
@@ -67,8 +72,8 @@ rarity.categories = Object.entries(traits).reduce((acc, [category, traits]) => {
 // Anons rarity
 // Compute scores https://raritytools.medium.com/ranking-rarity-understanding-rarity-calculation-methods-86ceaeb9b98c
 const scores = data.reduce((acc, anon) => {
-  acc[anon.id] = traitsList.reduce(
-    (acc, trait) => (!!anon[trait] ? acc + rarity.categories[trait].counts[anon[trait]].score : acc),
+  acc[anon.id] = traitsCategories.reduce(
+    (acc, category) => (!!anon[category] ? acc + rarity.categories[category].counts[anon[category]].score : acc),
     0
   )
   return acc
@@ -83,7 +88,7 @@ rarity.anons = Object.fromEntries(
 // console.log(rarity.anons)
 
 // Traits count rarity
-const countTraits = anon => traitsList.reduce((acc, trait) => (!!anon[trait] ? ++acc : acc), 0)
+const countTraits = anon => traitsCategories.reduce((acc, category) => (!!anon[category] ? ++acc : acc), 0)
 rarity.traitsAmountRarity = data.reduce((acc, anon) => {
   const count = countTraits(anon)
   if (count in acc) acc[count].count++
