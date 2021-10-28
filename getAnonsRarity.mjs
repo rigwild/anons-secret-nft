@@ -25,7 +25,6 @@ const traits = { backgrounds, basePerson, head, eyes, clothes, ears, mouth }
 const traitsCategories = Object.keys(traits)
 
 const data = await ngmi('https://api.anons.army/api/anons?size=580').then(res => res.content.filter(x => x.revealed))
-if (argv.out) await fs.writeJSON('_anons.json', data, { spaces: 2 })
 const mintedAnonsCount = data.length
 // console.log(data)
 
@@ -33,6 +32,8 @@ const mintedAnonsCount = data.length
 data.forEach(x => traitsCategories.forEach(category => x[category] === null && (x[category] = 'None')))
 // Add "None" traits
 traitsCategories.forEach(category => traits[category].push('None'))
+
+if (argv.out) await fs.writeJSON('_anons.json', data, { spaces: 2 })
 
 /**
  * @typedef {{ count: number; traitPercent: number; totalPercent: number; score: number }} TraitRarity
@@ -88,7 +89,8 @@ rarity.anons = Object.fromEntries(
 // console.log(rarity.anons)
 
 // Traits count rarity
-const countTraits = anon => traitsCategories.reduce((acc, category) => (!!anon[category] ? ++acc : acc), 0)
+const countTraits = anon =>
+  traitsCategories.reduce((acc, category) => (!!anon[category] && anon[category] !== 'None' ? ++acc : acc), 0)
 rarity.traitsAmountRarity = data.reduce((acc, anon) => {
   const count = countTraits(anon)
   if (count in acc) acc[count].count++

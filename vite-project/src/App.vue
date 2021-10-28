@@ -234,8 +234,8 @@ body {
   margin: 20px 0;
 }
 .anon-card img {
-  width: 400px;
-  height: 400px;
+  width: 440px;
+  height: 440px;
 }
 .anon-stats {
   width: 100%;
