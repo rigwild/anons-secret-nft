@@ -49,8 +49,16 @@ rarity.categories = Object.entries(traits).reduce((acc, [category, traits]) => {
   let categoryTotal = 0
 
   const traitsCounts = traits.reduce((tacc, trait) => {
-    tacc[trait] = count(data, category, trait)
-    categoryTotal += tacc[trait]
+    if (trait.includes(' and ')) {
+      const [trait1, trait2] = trait.split(' and ')
+      tacc[trait1] = count(data, category, trait1)
+      tacc[trait2] = count(data, category, trait2)
+      categoryTotal += tacc[trait1]
+      categoryTotal += tacc[trait2]
+    } else {
+      tacc[trait] = count(data, category, trait)
+      categoryTotal += tacc[trait]
+    }
     return tacc
   }, {})
 
@@ -73,10 +81,16 @@ rarity.categories = Object.entries(traits).reduce((acc, [category, traits]) => {
 // Anons rarity
 // Compute scores https://raritytools.medium.com/ranking-rarity-understanding-rarity-calculation-methods-86ceaeb9b98c
 const scores = data.reduce((acc, anon) => {
-  acc[anon.id] = traitsCategories.reduce(
-    (acc, category) => (!!anon[category] ? acc + rarity.categories[category].counts[anon[category]].score : acc),
-    0
-  )
+  acc[anon.id] = traitsCategories.reduce((acc, category) => {
+    if (!!anon[category]) {
+      if (anon[category].includes(' and ')) {
+        const [trait1, trait2] = anon[category].split(' and ')
+
+        return acc + rarity.categories[category].counts[trait1].score + rarity.categories[category].counts[trait2].score
+      } else return acc + rarity.categories[category].counts[anon[category]].score
+    }
+    return acc
+  }, 0)
   return acc
 }, {})
 // Compute rank

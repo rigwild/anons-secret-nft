@@ -1,3 +1,9 @@
+**This branch does not count double traits (3/580) as unique traits but only count it a 2 separates traits.**
+
+**(e.g. `Gold Sunglass and Magnifying Glass` becomes `Gold Sunglass` + `Magnifying Glass`) so the rankins are different.**
+
+**Here #580 is first.**
+
 # Anons NFT Rarity Scores
 
 This repository will list every rarity score for each Anons NFTs from https://www.anons.army/ on the [Secret Network](https://scrt.network/).

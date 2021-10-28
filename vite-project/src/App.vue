@@ -108,7 +108,7 @@ if (uriId()) {
   <div v-if="anons.length === 0">
     <h2 class="text-center">No anons found!</h2>
   </div>
-  <div v-else v-for="anon of anons" class="anon-card" :key="anon.id">
+  <div v-else v-for="anon of anons" class="anon-card" :key="`${anon.id}-sort-${sortBy}`">
     <img v-lazy="anon.imageUrl" :alt="`anon ${anon.id}`" />
     <div class="anon-stats">
       <h2>
