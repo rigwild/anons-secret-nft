@@ -1,2512 +1,2740 @@
 {
   "categories": {
     "backgrounds": {
-      "categoryTotal": 523,
+      "categoryTotal": 580,
       "categoryPercent": 100,
       "counts": {
         "Banana": {
-          "count": 9,
+          "count": 10,
           "traitPercent": 1.72,
           "totalPercent": 1.72,
-          "score": 58.111111111111114
+          "score": 58
         },
         "Beige": {
-          "count": 119,
-          "traitPercent": 22.75,
-          "totalPercent": 22.75,
-          "score": 4.394957983193277
+          "count": 130,
+          "traitPercent": 22.41,
+          "totalPercent": 22.41,
+          "score": 4.461538461538462
         },
         "Blue": {
-          "count": 52,
-          "traitPercent": 9.94,
-          "totalPercent": 9.94,
-          "score": 10.057692307692307
+          "count": 60,
+          "traitPercent": 10.34,
+          "totalPercent": 10.34,
+          "score": 9.666666666666666
         },
         "Green": {
-          "count": 118,
-          "traitPercent": 22.56,
-          "totalPercent": 22.56,
-          "score": 4.432203389830509
+          "count": 127,
+          "traitPercent": 21.9,
+          "totalPercent": 21.9,
+          "score": 4.566929133858268
         },
         "Grey": {
-          "count": 130,
-          "traitPercent": 24.86,
-          "totalPercent": 24.86,
-          "score": 4.023076923076923
+          "count": 149,
+          "traitPercent": 25.69,
+          "totalPercent": 25.69,
+          "score": 3.8926174496644292
         },
         "Purple": {
-          "count": 95,
-          "traitPercent": 18.16,
-          "totalPercent": 18.16,
-          "score": 5.505263157894737
+          "count": 104,
+          "traitPercent": 17.93,
+          "totalPercent": 17.93,
+          "score": 5.576923076923077
         }
       }
     },
     "basePerson": {
-      "categoryTotal": 523,
+      "categoryTotal": 580,
       "categoryPercent": 100,
       "counts": {
         "Beige": {
-          "count": 107,
-          "traitPercent": 20.46,
-          "totalPercent": 20.46,
-          "score": 4.88785046728972
+          "count": 115,
+          "traitPercent": 19.83,
+          "totalPercent": 19.83,
+          "score": 5.043478260869565
         },
         "Blue": {
-          "count": 97,
-          "traitPercent": 18.55,
-          "totalPercent": 18.55,
-          "score": 5.391752577319588
+          "count": 112,
+          "traitPercent": 19.31,
+          "totalPercent": 19.31,
+          "score": 5.178571428571429
         },
         "Green": {
-          "count": 23,
-          "traitPercent": 4.4,
-          "totalPercent": 4.4,
-          "score": 22.73913043478261
+          "count": 25,
+          "traitPercent": 4.31,
+          "totalPercent": 4.31,
+          "score": 23.2
         },
         "Grey": {
-          "count": 107,
-          "traitPercent": 20.46,
-          "totalPercent": 20.46,
-          "score": 4.88785046728972
+          "count": 115,
+          "traitPercent": 19.83,
+          "totalPercent": 19.83,
+          "score": 5.043478260869565
         },
         "Orange": {
-          "count": 91,
-          "traitPercent": 17.4,
-          "totalPercent": 17.4,
-          "score": 5.747252747252747
+          "count": 105,
+          "traitPercent": 18.1,
+          "totalPercent": 18.1,
+          "score": 5.523809523809524
         },
         "Purple": {
-          "count": 98,
-          "traitPercent": 18.74,
-          "totalPercent": 18.74,
-          "score": 5.336734693877551
+          "count": 108,
+          "traitPercent": 18.62,
+          "totalPercent": 18.62,
+          "score": 5.37037037037037
         }
       }
     },
     "head": {
-      "categoryTotal": 523,
+      "categoryTotal": 580,
       "categoryPercent": 100,
       "counts": {
         "Balaclava": {
-          "count": 18,
-          "traitPercent": 3.44,
-          "totalPercent": 3.44,
-          "score": 29.055555555555557
+          "count": 20,
+          "traitPercent": 3.45,
+          "totalPercent": 3.45,
+          "score": 29
         },
         "Bald": {
-          "count": 25,
-          "traitPercent": 4.78,
-          "totalPercent": 4.78,
-          "score": 20.92
+          "count": 29,
+          "traitPercent": 5,
+          "totalPercent": 5,
+          "score": 20
         },
         "Beer Helmet": {
           "count": 24,
-          "traitPercent": 4.59,
-          "totalPercent": 4.59,
-          "score": 21.791666666666664
+          "traitPercent": 4.14,
+          "totalPercent": 4.14,
+          "score": 24.166666666666668
         },
         "Bowler": {
-          "count": 43,
-          "traitPercent": 8.22,
-          "totalPercent": 8.22,
-          "score": 12.162790697674417
+          "count": 47,
+          "traitPercent": 8.1,
+          "totalPercent": 8.1,
+          "score": 12.340425531914894
         },
         "BucketHat - Bananas": {
-          "count": 28,
-          "traitPercent": 5.35,
-          "totalPercent": 5.35,
-          "score": 18.678571428571427
+          "count": 30,
+          "traitPercent": 5.17,
+          "totalPercent": 5.17,
+          "score": 19.333333333333332
         },
         "BucketHat - Tiedye": {
-          "count": 27,
-          "traitPercent": 5.16,
-          "totalPercent": 5.16,
-          "score": 19.37037037037037
+          "count": 30,
+          "traitPercent": 5.17,
+          "totalPercent": 5.17,
+          "score": 19.333333333333332
         },
         "Cowboy": {
-          "count": 42,
-          "traitPercent": 8.03,
-          "totalPercent": 8.03,
-          "score": 12.452380952380953
+          "count": 45,
+          "traitPercent": 7.76,
+          "totalPercent": 7.76,
+          "score": 12.88888888888889
         },
         "Detective": {
-          "count": 48,
-          "traitPercent": 9.18,
-          "totalPercent": 9.18,
-          "score": 10.895833333333332
+          "count": 54,
+          "traitPercent": 9.31,
+          "totalPercent": 9.31,
+          "score": 10.74074074074074
         },
         "Helmet": {
-          "count": 5,
-          "traitPercent": 0.96,
-          "totalPercent": 0.96,
-          "score": 104.6
+          "count": 6,
+          "traitPercent": 1.03,
+          "totalPercent": 1.03,
+          "score": 96.66666666666667
         },
         "Men 1": {
-          "count": 40,
-          "traitPercent": 7.65,
-          "totalPercent": 7.65,
-          "score": 13.075
+          "count": 44,
+          "traitPercent": 7.59,
+          "totalPercent": 7.59,
+          "score": 13.181818181818182
         },
         "Men 2": {
-          "count": 40,
-          "traitPercent": 7.65,
-          "totalPercent": 7.65,
-          "score": 13.075
+          "count": 45,
+          "traitPercent": 7.76,
+          "totalPercent": 7.76,
+          "score": 12.88888888888889
         },
         "Sunhat": {
-          "count": 24,
-          "traitPercent": 4.59,
-          "totalPercent": 4.59,
-          "score": 21.791666666666664
+          "count": 25,
+          "traitPercent": 4.31,
+          "totalPercent": 4.31,
+          "score": 23.2
         },
         "Tall Mountie": {
           "count": 15,
-          "traitPercent": 2.87,
-          "totalPercent": 2.87,
-          "score": 34.86666666666667
+          "traitPercent": 2.59,
+          "totalPercent": 2.59,
+          "score": 38.666666666666664
         },
         "Tweed": {
-          "count": 33,
-          "traitPercent": 6.31,
-          "totalPercent": 6.31,
-          "score": 15.84848484848485
+          "count": 41,
+          "traitPercent": 7.07,
+          "totalPercent": 7.07,
+          "score": 14.146341463414634
         },
         "Wide Brim": {
-          "count": 40,
-          "traitPercent": 7.65,
-          "totalPercent": 7.65,
-          "score": 13.075
+          "count": 42,
+          "traitPercent": 7.24,
+          "totalPercent": 7.24,
+          "score": 13.809523809523808
         },
         "Womens 1": {
-          "count": 44,
-          "traitPercent": 8.41,
-          "totalPercent": 8.41,
-          "score": 11.886363636363637
+          "count": 46,
+          "traitPercent": 7.93,
+          "totalPercent": 7.93,
+          "score": 12.608695652173912
         },
         "Womens 2": {
-          "count": 27,
-          "traitPercent": 5.16,
-          "totalPercent": 5.16,
-          "score": 19.37037037037037
+          "count": 37,
+          "traitPercent": 6.38,
+          "totalPercent": 6.38,
+          "score": 15.675675675675675
         }
       }
     },
     "eyes": {
-      "categoryTotal": 218,
-      "categoryPercent": 41.68,
+      "categoryTotal": 240,
+      "categoryPercent": 41.38,
       "counts": {
         "Binocular": {
-          "count": 26,
-          "traitPercent": 11.93,
-          "totalPercent": 4.97,
-          "score": 20.115384615384613
+          "count": 27,
+          "traitPercent": 11.25,
+          "totalPercent": 4.66,
+          "score": 21.48148148148148
         },
         "Black Sunglass": {
-          "count": 47,
-          "traitPercent": 21.56,
-          "totalPercent": 8.99,
-          "score": 11.127659574468085
+          "count": 51,
+          "traitPercent": 21.25,
+          "totalPercent": 8.79,
+          "score": 11.372549019607844
         },
         "Black Sunglass and Magnifying Glass": {
           "count": 2,
-          "traitPercent": 0.92,
-          "totalPercent": 0.38,
-          "score": 261.5
+          "traitPercent": 0.83,
+          "totalPercent": 0.34,
+          "score": 290
         },
         "Camera": {
-          "count": 20,
-          "traitPercent": 9.17,
-          "totalPercent": 3.82,
-          "score": 26.15
+          "count": 26,
+          "traitPercent": 10.83,
+          "totalPercent": 4.48,
+          "score": 22.307692307692307
         },
         "Disguise": {
-          "count": 26,
-          "traitPercent": 11.93,
-          "totalPercent": 4.97,
-          "score": 20.115384615384613
+          "count": 28,
+          "traitPercent": 11.67,
+          "totalPercent": 4.83,
+          "score": 20.714285714285715
         },
         "Gas Mask": {
           "count": 10,
-          "traitPercent": 4.59,
-          "totalPercent": 1.91,
-          "score": 52.3
+          "traitPercent": 4.17,
+          "totalPercent": 1.72,
+          "score": 58
         },
         "Gold Sunglass": {
-          "count": 44,
-          "traitPercent": 20.18,
-          "totalPercent": 8.41,
-          "score": 11.886363636363637
+          "count": 50,
+          "traitPercent": 20.83,
+          "totalPercent": 8.62,
+          "score": 11.6
         },
         "Gold Sunglass and Magnifying Glass": {
           "count": 1,
-          "traitPercent": 0.46,
-          "totalPercent": 0.19,
-          "score": 523
+          "traitPercent": 0.42,
+          "totalPercent": 0.17,
+          "score": 580
         },
         "Magnifying Glass": {
-          "count": 22,
-          "traitPercent": 10.09,
-          "totalPercent": 4.21,
-          "score": 23.772727272727273
+          "count": 25,
+          "traitPercent": 10.42,
+          "totalPercent": 4.31,
+          "score": 23.2
         },
         "Plague Mask": {
           "count": 20,
-          "traitPercent": 9.17,
-          "totalPercent": 3.82,
-          "score": 26.15
+          "traitPercent": 8.33,
+          "totalPercent": 3.45,
+          "score": 29
         }
       }
     },
     "clothes": {
-      "categoryTotal": 523,
+      "categoryTotal": 580,
       "categoryPercent": 100,
       "counts": {
         "Blouse": {
-          "count": 24,
-          "traitPercent": 4.59,
-          "totalPercent": 4.59,
-          "score": 21.791666666666664
+          "count": 26,
+          "traitPercent": 4.48,
+          "totalPercent": 4.48,
+          "score": 22.307692307692307
         },
         "Bomber": {
-          "count": 44,
-          "traitPercent": 8.41,
-          "totalPercent": 8.41,
-          "score": 11.886363636363637
+          "count": 48,
+          "traitPercent": 8.28,
+          "totalPercent": 8.28,
+          "score": 12.083333333333334
         },
         "Hawaiian Shirt - Bananas": {
-          "count": 28,
-          "traitPercent": 5.35,
-          "totalPercent": 5.35,
-          "score": 18.678571428571427
+          "count": 31,
+          "traitPercent": 5.34,
+          "totalPercent": 5.34,
+          "score": 18.709677419354836
         },
         "Hawaiian Shirt - Secret": {
-          "count": 27,
-          "traitPercent": 5.16,
-          "totalPercent": 5.16,
-          "score": 19.37037037037037
+          "count": 33,
+          "traitPercent": 5.69,
+          "totalPercent": 5.69,
+          "score": 17.575757575757574
         },
         "Hoodie": {
-          "count": 48,
-          "traitPercent": 9.18,
-          "totalPercent": 9.18,
-          "score": 10.895833333333332
+          "count": 50,
+          "traitPercent": 8.62,
+          "totalPercent": 8.62,
+          "score": 11.6
         },
         "No Tie": {
-          "count": 37,
-          "traitPercent": 7.07,
-          "totalPercent": 7.07,
-          "score": 14.135135135135135
+          "count": 45,
+          "traitPercent": 7.76,
+          "totalPercent": 7.76,
+          "score": 12.88888888888889
         },
         "Open Overcoat": {
-          "count": 27,
-          "traitPercent": 5.16,
-          "totalPercent": 5.16,
-          "score": 19.37037037037037
+          "count": 30,
+          "traitPercent": 5.17,
+          "totalPercent": 5.17,
+          "score": 19.333333333333332
         },
         "Overcoat": {
-          "count": 64,
-          "traitPercent": 12.24,
-          "totalPercent": 12.24,
-          "score": 8.171875
+          "count": 67,
+          "traitPercent": 11.55,
+          "totalPercent": 11.55,
+          "score": 8.656716417910449
         },
         "Smoking Jacket": {
-          "count": 44,
-          "traitPercent": 8.41,
-          "totalPercent": 8.41,
-          "score": 11.886363636363637
+          "count": 52,
+          "traitPercent": 8.97,
+          "totalPercent": 8.97,
+          "score": 11.153846153846153
         },
         "Tactical": {
-          "count": 80,
-          "traitPercent": 15.3,
-          "totalPercent": 15.3,
-          "score": 6.5375
+          "count": 89,
+          "traitPercent": 15.34,
+          "totalPercent": 15.34,
+          "score": 6.51685393258427
         },
         "Tie": {
-          "count": 46,
-          "traitPercent": 8.8,
-          "totalPercent": 8.8,
-          "score": 11.369565217391305
+          "count": 49,
+          "traitPercent": 8.45,
+          "totalPercent": 8.45,
+          "score": 11.83673469387755
         },
         "Tie-Dye T-Shirt": {
-          "count": 24,
-          "traitPercent": 4.59,
-          "totalPercent": 4.59,
-          "score": 21.791666666666664
+          "count": 26,
+          "traitPercent": 4.48,
+          "totalPercent": 4.48,
+          "score": 22.307692307692307
         },
         "Tux": {
-          "count": 30,
-          "traitPercent": 5.74,
-          "totalPercent": 5.74,
-          "score": 17.433333333333334
+          "count": 34,
+          "traitPercent": 5.86,
+          "totalPercent": 5.86,
+          "score": 17.058823529411764
         }
       }
     },
     "ears": {
-      "categoryTotal": 130,
-      "categoryPercent": 24.86,
+      "categoryTotal": 141,
+      "categoryPercent": 24.31,
       "counts": {
         "Earpiece": {
-          "count": 111,
-          "traitPercent": 85.38,
-          "totalPercent": 21.22,
-          "score": 4.711711711711712
+          "count": 121,
+          "traitPercent": 85.82,
+          "totalPercent": 20.86,
+          "score": 4.793388429752066
         },
         "Earpiece w Hand": {
-          "count": 19,
-          "traitPercent": 14.62,
-          "totalPercent": 3.63,
-          "score": 27.52631578947368
+          "count": 20,
+          "traitPercent": 14.18,
+          "totalPercent": 3.45,
+          "score": 29
         }
       }
     },
     "mouth": {
-      "categoryTotal": 165,
-      "categoryPercent": 31.55,
+      "categoryTotal": 178,
+      "categoryPercent": 30.69,
       "counts": {
         "Bandana - Banana": {
-          "count": 21,
-          "traitPercent": 12.73,
-          "totalPercent": 4.02,
-          "score": 24.904761904761905
+          "count": 23,
+          "traitPercent": 12.92,
+          "totalPercent": 3.97,
+          "score": 25.217391304347824
         },
         "Bandana - Secret": {
           "count": 24,
-          "traitPercent": 14.55,
-          "totalPercent": 4.59,
-          "score": 21.791666666666664
+          "traitPercent": 13.48,
+          "totalPercent": 4.14,
+          "score": 24.166666666666668
         },
         "Cigar": {
-          "count": 48,
-          "traitPercent": 29.09,
-          "totalPercent": 9.18,
-          "score": 10.895833333333332
+          "count": 50,
+          "traitPercent": 28.09,
+          "totalPercent": 8.62,
+          "score": 11.6
         },
         "Old Pipe": {
-          "count": 43,
-          "traitPercent": 26.06,
-          "totalPercent": 8.22,
-          "score": 12.162790697674417
+          "count": 49,
+          "traitPercent": 27.53,
+          "totalPercent": 8.45,
+          "score": 11.83673469387755
         },
         "Vape": {
-          "count": 29,
-          "traitPercent": 17.58,
-          "totalPercent": 5.54,
-          "score": 18.03448275862069
+          "count": 32,
+          "traitPercent": 17.98,
+          "totalPercent": 5.52,
+          "score": 18.125
         }
       }
     }
   },
   "anons": {
     "1": {
-      "score": 31.548207001207633,
-      "rank": 504
+      "score": 32.082492157026316,
+      "rank": 556
     },
     "2": {
-      "score": 62.79577587521513,
-      "rank": 161
+      "score": 57.47346281497427,
+      "rank": 264
     },
     "3": {
-      "score": 41.35033118510562,
-      "rank": 402
+      "score": 41.9530362687666,
+      "rank": 437
+    },
+    "4": {
+      "score": 57.42341104103768,
+      "rank": 265
     },
     "5": {
-      "score": 40.44565984078696,
-      "rank": 415
+      "score": 40.16481273174186,
+      "rank": 463
     },
     "6": {
-      "score": 51.203904794036376,
-      "rank": 310
+      "score": 51.7007326007326,
+      "rank": 335
     },
     "7": {
-      "score": 55.57354162160863,
-      "rank": 263
-    },
-    "8": {
-      "score": 104.13552513255792,
-      "rank": 17
-    },
-    "9": {
-      "score": 61.883379806498816,
-      "rank": 177
-    },
-    "10": {
-      "score": 47.05394288348476,
-      "rank": 348
-    },
-    "11": {
-      "score": 28.523427390366642,
-      "rank": 516
-    },
-    "12": {
-      "score": 54.72295390551816,
-      "rank": 274
-    },
-    "13": {
-      "score": 44.875864006038555,
-      "rank": 368
-    },
-    "14": {
-      "score": 59.39391453174448,
-      "rank": 211
-    },
-    "15": {
-      "score": 35.69027938878254,
-      "rank": 462
-    },
-    "16": {
-      "score": 50.94912599765067,
+      "score": 52.93438427423476,
       "rank": 314
     },
+    "8": {
+      "score": 102.02986954820533,
+      "rank": 22
+    },
+    "9": {
+      "score": 62.73268722619372,
+      "rank": 178
+    },
+    "10": {
+      "score": 46.27829982693205,
+      "rank": 391
+    },
+    "11": {
+      "score": 28.634767824936446,
+      "rank": 575
+    },
+    "12": {
+      "score": 55.90582025852574,
+      "rank": 286
+    },
+    "13": {
+      "score": 45.0218706549923,
+      "rank": 410
+    },
+    "14": {
+      "score": 60.06160094832022,
+      "rank": 228
+    },
+    "15": {
+      "score": 36.46383186138953,
+      "rank": 498
+    },
+    "16": {
+      "score": 52.79514143864793,
+      "rank": 316
+    },
     "17": {
-      "score": 334.7901904305274,
+      "score": 367.22426314184156,
       "rank": 2
     },
     "18": {
-      "score": 28.194193306693307,
-      "rank": 517
+      "score": 28.541976558232136,
+      "rank": 576
     },
     "19": {
-      "score": 51.81365367580273,
-      "rank": 304
+      "score": 51.94289843162243,
+      "rank": 329
     },
     "20": {
-      "score": 34.281417493483865,
-      "rank": 486
+      "score": 33.653142437462876,
+      "rank": 544
     },
     "21": {
-      "score": 71.30492734115224,
-      "rank": 88
+      "score": 73.56209202782236,
+      "rank": 81
     },
     "22": {
-      "score": 75.51544112788311,
+      "score": 77.47135073737425,
       "rank": 62
     },
     "23": {
-      "score": 56.422567595634604,
-      "rank": 251
+      "score": 59.08804281082013,
+      "rank": 238
     },
     "24": {
-      "score": 40.35665529185112,
-      "rank": 417
-    },
-    "26": {
-      "score": 27.743917493483863,
-      "rank": 520
-    },
-    "28": {
-      "score": 42.00755385712023,
-      "rank": 395
-    },
-    "29": {
-      "score": 69.65653568278344,
-      "rank": 98
-    },
-    "30": {
-      "score": 49.83995027334337,
-      "rank": 324
-    },
-    "31": {
-      "score": 61.35238721687027,
-      "rank": 188
-    },
-    "32": {
-      "score": 85.72945878834625,
-      "rank": 35
-    },
-    "33": {
-      "score": 92.15030467974393,
-      "rank": 27
-    },
-    "34": {
-      "score": 45.34163130219831,
-      "rank": 365
-    },
-    "35": {
-      "score": 55.94195613708326,
-      "rank": 259
-    },
-    "36": {
-      "score": 39.469804733496744,
+      "score": 42.47711775570309,
       "rank": 431
     },
-    "37": {
-      "score": 76.21545412775508,
-      "rank": 60
+    "25": {
+      "score": 33.63601587959921,
+      "rank": 545
     },
-    "38": {
-      "score": 140.04676134155144,
-      "rank": 7
+    "26": {
+      "score": 28.735956979486012,
+      "rank": 574
     },
-    "40": {
-      "score": 35.241395162194706,
-      "rank": 471
+    "27": {
+      "score": 60.29021610728928,
+      "rank": 226
     },
-    "41": {
-      "score": 40.167661397100645,
-      "rank": 419
+    "28": {
+      "score": 45.3770740613945,
+      "rank": 403
     },
-    "42": {
-      "score": 57.71863337570421,
-      "rank": 236
+    "29": {
+      "score": 71.59038625483637,
+      "rank": 93
     },
-    "43": {
-      "score": 50.20193077230892,
-      "rank": 320
+    "30": {
+      "score": 49.90792357211341,
+      "rank": 353
     },
-    "44": {
-      "score": 102.0131144201305,
-      "rank": 19
+    "31": {
+      "score": 61.03141189586203,
+      "rank": 209
     },
-    "46": {
-      "score": 48.13592739036663,
-      "rank": 336
+    "32": {
+      "score": 83.11208791208792,
+      "rank": 47
     },
-    "47": {
-      "score": 69.13124018838303,
-      "rank": 103
-    },
-    "48": {
-      "score": 57.77521016767911,
-      "rank": 234
-    },
-    "49": {
-      "score": 30.00561362518446,
-      "rank": 509
-    },
-    "51": {
-      "score": 54.422689402863945,
-      "rank": 279
-    },
-    "53": {
-      "score": 41.609619074511535,
-      "rank": 399
-    },
-    "54": {
-      "score": 64.70388416763193,
-      "rank": 134
-    },
-    "55": {
-      "score": 54.86618177987379,
-      "rank": 272
-    },
-    "56": {
-      "score": 39.30367384074022,
-      "rank": 433
-    },
-    "57": {
-      "score": 40.576787863854236,
-      "rank": 412
-    },
-    "58": {
-      "score": 62.597483048218336,
-      "rank": 165
-    },
-    "59": {
-      "score": 63.98898849342774,
-      "rank": 142
-    },
-    "61": {
-      "score": 40.22759278304599,
-      "rank": 418
-    },
-    "64": {
-      "score": 67.84387120094203,
-      "rank": 111
-    },
-    "65": {
-      "score": 37.14967798524499,
-      "rank": 450
-    },
-    "66": {
-      "score": 60.13003067270522,
-      "rank": 206
-    },
-    "67": {
-      "score": 35.14081977344689,
-      "rank": 476
-    },
-    "68": {
-      "score": 93.63454145331264,
+    "33": {
+      "score": 95.65302642796249,
       "rank": 26
     },
-    "69": {
-      "score": 61.103811299189445,
-      "rank": 193
+    "34": {
+      "score": 46.126744433791416,
+      "rank": 393
     },
-    "70": {
-      "score": 56.05820578264587,
-      "rank": 256
+    "35": {
+      "score": 59.41711639977587,
+      "rank": 232
     },
-    "72": {
-      "score": 66.0330202898702,
-      "rank": 128
+    "36": {
+      "score": 37.648295976563176,
+      "rank": 486
     },
-    "74": {
-      "score": 38.713114018567225,
-      "rank": 440
+    "37": {
+      "score": 75.91463198441411,
+      "rank": 70
     },
-    "75": {
-      "score": 43.686150041411906,
-      "rank": 379
+    "38": {
+      "score": 140.96602564102562,
+      "rank": 7
     },
-    "77": {
-      "score": 54.570765140335965,
-      "rank": 278
+    "39": {
+      "score": 34.86171925781327,
+      "rank": 527
     },
-    "78": {
-      "score": 38.576846336620775,
-      "rank": 442
+    "40": {
+      "score": 36.76464537959435,
+      "rank": 493
     },
-    "79": {
-      "score": 46.71926556883194,
-      "rank": 351
+    "41": {
+      "score": 35.76561754005582,
+      "rank": 510
     },
-    "80": {
-      "score": 59.83527353065168,
-      "rank": 207
+    "42": {
+      "score": 57.11246482985614,
+      "rank": 270
     },
-    "81": {
-      "score": 53.97317663953693,
-      "rank": 284
+    "43": {
+      "score": 52.70825291793034,
+      "rank": 317
     },
-    "82": {
-      "score": 54.75037179849081,
-      "rank": 273
-    },
-    "83": {
-      "score": 48.04009638380515,
-      "rank": 340
-    },
-    "84": {
-      "score": 83.72986306876635,
-      "rank": 41
-    },
-    "85": {
-      "score": 52.9431449502878,
-      "rank": 294
-    },
-    "86": {
-      "score": 55.81954777451672,
-      "rank": 262
-    },
-    "87": {
-      "score": 97.32384964691666,
-      "rank": 22
-    },
-    "88": {
-      "score": 55.3511044999068,
-      "rank": 266
-    },
-    "89": {
-      "score": 33.29088719045356,
-      "rank": 494
-    },
-    "90": {
-      "score": 35.00378141134566,
-      "rank": 478
-    },
-    "91": {
-      "score": 57.071875139323105,
-      "rank": 245
-    },
-    "92": {
-      "score": 41.03092047629863,
-      "rank": 407
-    },
-    "94": {
-      "score": 67.90284606491244,
-      "rank": 110
-    },
-    "95": {
-      "score": 64.31180470399137,
-      "rank": 139
-    },
-    "96": {
-      "score": 44.637161244232075,
-      "rank": 372
-    },
-    "97": {
-      "score": 36.941827812205965,
-      "rank": 452
-    },
-    "98": {
-      "score": 47.780060950192535,
-      "rank": 343
-    },
-    "99": {
-      "score": 56.771567104677914,
-      "rank": 248
-    },
-    "100": {
-      "score": 35.10357436680966,
-      "rank": 477
-    },
-    "101": {
-      "score": 42.53805631343447,
-      "rank": 390
-    },
-    "102": {
-      "score": 99.45141941391941,
+    "44": {
+      "score": 106.21696392832756,
       "rank": 20
     },
-    "103": {
-      "score": 44.347570989525536,
-      "rank": 375
+    "45": {
+      "score": 61.05967817742108,
+      "rank": 208
     },
-    "104": {
-      "score": 39.68103320410022,
-      "rank": 429
+    "46": {
+      "score": 48.3356599806865,
+      "rank": 363
     },
-    "105": {
-      "score": 53.802778218345225,
-      "rank": 285
+    "47": {
+      "score": 69.67696032096381,
+      "rank": 111
     },
-    "106": {
-      "score": 34.94776410564226,
-      "rank": 479
+    "48": {
+      "score": 60.840463254653095,
+      "rank": 215
     },
-    "107": {
-      "score": 46.10125852408461,
-      "rank": 356
+    "49": {
+      "score": 30.946779079900722,
+      "rank": 564
     },
-    "108": {
-      "score": 54.32713683601618,
-      "rank": 281
+    "50": {
+      "score": 33.113923920970905,
+      "rank": 548
     },
-    "109": {
-      "score": 64.49123127511874,
-      "rank": 137
+    "51": {
+      "score": 58.16057227796358,
+      "rank": 251
     },
-    "111": {
-      "score": 85.55364178381632,
-      "rank": 37
+    "52": {
+      "score": 40.54374072806117,
+      "rank": 457
     },
-    "112": {
-      "score": 96.81721735109224,
-      "rank": 24
+    "53": {
+      "score": 41.44714208860538,
+      "rank": 443
     },
-    "113": {
-      "score": 61.75736424479775,
-      "rank": 180
+    "54": {
+      "score": 62.98288156440486,
+      "rank": 173
     },
-    "114": {
-      "score": 32.88277821834523,
-      "rank": 496
+    "55": {
+      "score": 56.124468329072975,
+      "rank": 284
     },
-    "115": {
-      "score": 77.46861162304725,
-      "rank": 54
+    "56": {
+      "score": 36.64563774703136,
+      "rank": 494
     },
-    "116": {
-      "score": 57.67335934373749,
-      "rank": 241
+    "57": {
+      "score": 37.36941640373684,
+      "rank": 488
     },
-    "117": {
-      "score": 51.638653152976126,
+    "58": {
+      "score": 62.760554596918226,
+      "rank": 176
+    },
+    "59": {
+      "score": 64.24639050014544,
+      "rank": 159
+    },
+    "60": {
+      "score": 50.79390808375857,
+      "rank": 346
+    },
+    "61": {
+      "score": 41.26080668487867,
+      "rank": 447
+    },
+    "62": {
+      "score": 38.60777990125816,
+      "rank": 482
+    },
+    "63": {
+      "score": 36.47058860371025,
+      "rank": 497
+    },
+    "64": {
+      "score": 71.07909698996656,
+      "rank": 96
+    },
+    "65": {
+      "score": 34.37137649549665,
+      "rank": 535
+    },
+    "66": {
+      "score": 60.812709030100336,
+      "rank": 216
+    },
+    "67": {
+      "score": 35.062960879890014,
+      "rank": 522
+    },
+    "68": {
+      "score": 94.01664622694476,
+      "rank": 29
+    },
+    "69": {
+      "score": 60.73064777412604,
+      "rank": 219
+    },
+    "70": {
+      "score": 57.79379444085327,
+      "rank": 257
+    },
+    "71": {
+      "score": 137.2338766437029,
+      "rank": 8
+    },
+    "72": {
+      "score": 66.7279052961463,
+      "rank": 132
+    },
+    "73": {
+      "score": 129.85501672240804,
+      "rank": 10
+    },
+    "74": {
+      "score": 39.609750670186294,
+      "rank": 470
+    },
+    "75": {
+      "score": 44.48002667151603,
+      "rank": 417
+    },
+    "76": {
+      "score": 77.37905123878508,
+      "rank": 63
+    },
+    "77": {
+      "score": 53.42556633061904,
+      "rank": 312
+    },
+    "78": {
+      "score": 37.17696824404142,
+      "rank": 489
+    },
+    "79": {
+      "score": 47.45222887291295,
+      "rank": 373
+    },
+    "80": {
+      "score": 54.789861826225454,
+      "rank": 299
+    },
+    "81": {
+      "score": 54.45076005543234,
+      "rank": 304
+    },
+    "82": {
+      "score": 54.337234194377054,
       "rank": 306
     },
+    "83": {
+      "score": 49.07177907990072,
+      "rank": 360
+    },
+    "84": {
+      "score": 83.40600879190659,
+      "rank": 46
+    },
+    "85": {
+      "score": 54.770680127727104,
+      "rank": 300
+    },
+    "86": {
+      "score": 55.87377173091459,
+      "rank": 287
+    },
+    "87": {
+      "score": 102.29565625533367,
+      "rank": 21
+    },
+    "88": {
+      "score": 56.15649784997611,
+      "rank": 283
+    },
+    "89": {
+      "score": 34.099296283616724,
+      "rank": 540
+    },
+    "90": {
+      "score": 35.975556997620586,
+      "rank": 505
+    },
+    "91": {
+      "score": 58.403596039324235,
+      "rank": 246
+    },
+    "92": {
+      "score": 40.40307503943867,
+      "rank": 460
+    },
+    "93": {
+      "score": 38.634069487824426,
+      "rank": 480
+    },
+    "94": {
+      "score": 69.74418665894187,
+      "rank": 109
+    },
+    "95": {
+      "score": 61.00685529027775,
+      "rank": 210
+    },
+    "96": {
+      "score": 45.816982534373835,
+      "rank": 400
+    },
+    "97": {
+      "score": 35.902615902615906,
+      "rank": 507
+    },
+    "98": {
+      "score": 47.49412103048466,
+      "rank": 371
+    },
+    "99": {
+      "score": 57.5760288730877,
+      "rank": 261
+    },
+    "100": {
+      "score": 35.87820512820513,
+      "rank": 508
+    },
+    "101": {
+      "score": 40.98575498575499,
+      "rank": 451
+    },
+    "102": {
+      "score": 99.04066345639379,
+      "rank": 25
+    },
+    "103": {
+      "score": 45.268519177399845,
+      "rank": 405
+    },
+    "104": {
+      "score": 36.34686455391154,
+      "rank": 499
+    },
+    "105": {
+      "score": 51.904061624649856,
+      "rank": 331
+    },
+    "106": {
+      "score": 35.68209609782643,
+      "rank": 511
+    },
+    "107": {
+      "score": 46.66268547687532,
+      "rank": 386
+    },
+    "108": {
+      "score": 54.076283690733824,
+      "rank": 309
+    },
+    "109": {
+      "score": 65.70454921422663,
+      "rank": 145
+    },
+    "110": {
+      "score": 37.02199682904381,
+      "rank": 491
+    },
+    "111": {
+      "score": 92.2868349042262,
+      "rank": 35
+    },
+    "112": {
+      "score": 101.74373614843557,
+      "rank": 23
+    },
+    "113": {
+      "score": 64.35309981839966,
+      "rank": 157
+    },
+    "114": {
+      "score": 32.102832768563104,
+      "rank": 555
+    },
+    "115": {
+      "score": 78.09734564829013,
+      "rank": 59
+    },
+    "116": {
+      "score": 61.172649572649576,
+      "rank": 207
+    },
+    "117": {
+      "score": 51.26000989159103,
+      "rank": 341
+    },
     "118": {
-      "score": 67.17706367706367,
-      "rank": 118
+      "score": 65.24594880299578,
+      "rank": 149
     },
     "119": {
-      "score": 43.269668161119526,
-      "rank": 385
+      "score": 44.844232491816555,
+      "rank": 414
     },
     "120": {
-      "score": 51.12726388846819,
-      "rank": 313
+      "score": 51.4979492007479,
+      "rank": 337
     },
     "121": {
-      "score": 85.01477829547427,
+      "score": 89.7840874811463,
       "rank": 39
     },
     "122": {
-      "score": 60.45064935064934,
-      "rank": 203
+      "score": 61.54737935442633,
+      "rank": 200
     },
     "123": {
-      "score": 68.69352740241487,
-      "rank": 104
+      "score": 69.02714911351276,
+      "rank": 118
     },
     "124": {
-      "score": 48.10677465903999,
-      "rank": 338
+      "score": 50.71354628808045,
+      "rank": 348
     },
     "125": {
-      "score": 37.63695613708326,
-      "rank": 447
+      "score": 36.60759259025206,
+      "rank": 495
+    },
+    "126": {
+      "score": 53.4056880833233,
+      "rank": 313
     },
     "127": {
-      "score": 56.48472298010113,
-      "rank": 249
+      "score": 58.96194546194546,
+      "rank": 240
     },
     "128": {
-      "score": 39.90690641134566,
-      "rank": 424
-    },
-    "129": {
-      "score": 57.878993174120296,
-      "rank": 230
-    },
-    "130": {
-      "score": 31.639988625184458,
-      "rank": 503
-    },
-    "131": {
-      "score": 64.5999962484994,
-      "rank": 135
-    },
-    "132": {
-      "score": 116.44329710144928,
-      "rank": 15
-    },
-    "133": {
-      "score": 53.641474633985474,
-      "rank": 288
-    },
-    "135": {
-      "score": 64.84228474228475,
-      "rank": 133
-    },
-    "137": {
-      "score": 67.55534906854766,
-      "rank": 114
-    },
-    "139": {
-      "score": 57.71551596272091,
-      "rank": 237
-    },
-    "140": {
-      "score": 35.3544772615481,
+      "score": 39.682367149758456,
       "rank": 468
     },
+    "129": {
+      "score": 54.42523786275523,
+      "rank": 305
+    },
+    "130": {
+      "score": 32.458935937521275,
+      "rank": 552
+    },
+    "131": {
+      "score": 66.90601655416711,
+      "rank": 130
+    },
+    "132": {
+      "score": 116.71685393258427,
+      "rank": 16
+    },
+    "133": {
+      "score": 52.49863955907519,
+      "rank": 320
+    },
+    "134": {
+      "score": 55.924145299145295,
+      "rank": 285
+    },
+    "135": {
+      "score": 63.1875931810038,
+      "rank": 171
+    },
+    "136": {
+      "score": 54.678101561995014,
+      "rank": 301
+    },
+    "137": {
+      "score": 69.70320692379516,
+      "rank": 110
+    },
+    "138": {
+      "score": 36.84015059015059,
+      "rank": 492
+    },
+    "139": {
+      "score": 55.51268719473417,
+      "rank": 292
+    },
+    "140": {
+      "score": 35.592623560014864,
+      "rank": 513
+    },
     "141": {
-      "score": 82.85637978814484,
-      "rank": 45
+      "score": 82.55323902191874,
+      "rank": 48
     },
     "142": {
-      "score": 63.54775355308801,
-      "rank": 147
+      "score": 62.70573165436388,
+      "rank": 179
     },
     "143": {
-      "score": 638.5254949242722,
+      "score": 696.9908455884033,
       "rank": 1
     },
     "144": {
-      "score": 33.88104880117592,
-      "rank": 488
+      "score": 34.28986990889302,
+      "rank": 536
     },
     "145": {
-      "score": 53.49770537227174,
-      "rank": 290
+      "score": 52.41557238755423,
+      "rank": 323
     },
     "146": {
-      "score": 61.084366816501415,
-      "rank": 194
+      "score": 62.6084555561355,
+      "rank": 180
     },
     "147": {
-      "score": 88.71461239668322,
+      "score": 94.11798587885545,
       "rank": 28
     },
     "148": {
-      "score": 32.1022508268172,
-      "rank": 501
+      "score": 31.504994289314727,
+      "rank": 561
     },
     "149": {
-      "score": 58.05050169231417,
-      "rank": 225
+      "score": 57.920989693222886,
+      "rank": 255
     },
     "150": {
-      "score": 28.155556313434467,
-      "rank": 518
+      "score": 28.957458416667013,
+      "rank": 572
     },
     "151": {
-      "score": 33.25364178381633,
-      "rank": 495
+      "score": 34.914540531931834,
+      "rank": 525
     },
     "152": {
-      "score": 53.01989174314386,
-      "rank": 293
+      "score": 52.68819581631898,
+      "rank": 318
     },
     "153": {
-      "score": 127.97621968065894,
-      "rank": 10
+      "score": 129.38131113506606,
+      "rank": 11
     },
     "154": {
-      "score": 50.89372971410786,
-      "rank": 315
+      "score": 47.81527681527682,
+      "rank": 368
+    },
+    "155": {
+      "score": 58.57499444999445,
+      "rank": 244
     },
     "156": {
-      "score": 49.45957729245544,
-      "rank": 327
+      "score": 50.244866660597,
+      "rank": 351
+    },
+    "157": {
+      "score": 60.67508474961891,
+      "rank": 220
     },
     "158": {
-      "score": 55.95750756457839,
-      "rank": 258
+      "score": 57.54091415830547,
+      "rank": 262
     },
     "159": {
-      "score": 63.93562564886094,
-      "rank": 143
-    },
-    "160": {
-      "score": 46.67719671426308,
-      "rank": 352
-    },
-    "161": {
-      "score": 51.6661929593972,
-      "rank": 305
-    },
-    "162": {
-      "score": 49.88916602673028,
-      "rank": 322
-    },
-    "163": {
-      "score": 50.48209089415727,
-      "rank": 316
-    },
-    "164": {
-      "score": 71.38461204198757,
-      "rank": 86
-    },
-    "165": {
-      "score": 38.72228029185112,
-      "rank": 439
-    },
-    "166": {
-      "score": 61.32185098076335,
-      "rank": 191
-    },
-    "167": {
-      "score": 62.23732650745362,
-      "rank": 172
-    },
-    "168": {
-      "score": 52.4777667728673,
-      "rank": 297
-    },
-    "169": {
-      "score": 53.72554406377935,
-      "rank": 286
-    },
-    "170": {
-      "score": 67.55798640494095,
-      "rank": 113
-    },
-    "171": {
-      "score": 62.69942084942085,
-      "rank": 162
-    },
-    "172": {
-      "score": 43.433992003562835,
-      "rank": 382
-    },
-    "173": {
-      "score": 121.97949785177228,
-      "rank": 14
-    },
-    "174": {
-      "score": 53.110781266115715,
-      "rank": 291
-    },
-    "175": {
-      "score": 74.73328248156623,
-      "rank": 67
-    },
-    "176": {
-      "score": 63.22785681048393,
-      "rank": 152
-    },
-    "177": {
-      "score": 42.177063047441194,
-      "rank": 393
-    },
-    "178": {
-      "score": 47.24976802514618,
-      "rank": 346
-    },
-    "179": {
-      "score": 34.442267959222505,
-      "rank": 484
-    },
-    "180": {
-      "score": 33.621553039227585,
-      "rank": 492
-    },
-    "181": {
-      "score": 53.993464143539235,
-      "rank": 283
-    },
-    "183": {
-      "score": 49.6104242274906,
-      "rank": 326
-    },
-    "184": {
-      "score": 28.932553857120226,
-      "rank": 515
-    },
-    "185": {
-      "score": 44.09008287877489,
-      "rank": 377
-    },
-    "187": {
-      "score": 63.559347148616666,
+      "score": 65.61602165949992,
       "rank": 146
     },
+    "160": {
+      "score": 47.653418147416005,
+      "rank": 369
+    },
+    "161": {
+      "score": 52.601976859119716,
+      "rank": 319
+    },
+    "162": {
+      "score": 49.192812128444444,
+      "rank": 358
+    },
+    "163": {
+      "score": 47.59377537809581,
+      "rank": 370
+    },
+    "164": {
+      "score": 74.37601521648466,
+      "rank": 76
+    },
+    "165": {
+      "score": 41.30392193704358,
+      "rank": 446
+    },
+    "166": {
+      "score": 62.215150590150586,
+      "rank": 187
+    },
+    "167": {
+      "score": 58.2486182312777,
+      "rank": 250
+    },
+    "168": {
+      "score": 50.05970381684668,
+      "rank": 352
+    },
+    "169": {
+      "score": 55.493040293040295,
+      "rank": 293
+    },
+    "170": {
+      "score": 64.82628203717984,
+      "rank": 151
+    },
+    "171": {
+      "score": 62.35293490998188,
+      "rank": 184
+    },
+    "172": {
+      "score": 45.13064370012898,
+      "rank": 407
+    },
+    "173": {
+      "score": 114.13081404654439,
+      "rank": 17
+    },
+    "174": {
+      "score": 50.82410667978588,
+      "rank": 345
+    },
+    "175": {
+      "score": 74.83574660633484,
+      "rank": 73
+    },
+    "176": {
+      "score": 64.22407199100113,
+      "rank": 160
+    },
+    "177": {
+      "score": 42.34706034706035,
+      "rank": 432
+    },
+    "178": {
+      "score": 46.70863059499423,
+      "rank": 384
+    },
+    "179": {
+      "score": 34.11467302355369,
+      "rank": 539
+    },
+    "180": {
+      "score": 34.47723894463025,
+      "rank": 534
+    },
+    "181": {
+      "score": 54.59274739540472,
+      "rank": 303
+    },
+    "182": {
+      "score": 47.05455686160384,
+      "rank": 378
+    },
+    "183": {
+      "score": 47.18616497048541,
+      "rank": 376
+    },
+    "184": {
+      "score": 29.01615021620099,
+      "rank": 571
+    },
+    "185": {
+      "score": 46.68796039256504,
+      "rank": 385
+    },
+    "186": {
+      "score": 45.9325825689462,
+      "rank": 397
+    },
+    "187": {
+      "score": 61.488927996731505,
+      "rank": 201
+    },
+    "188": {
+      "score": 54.11062931068008,
+      "rank": 308
+    },
     "189": {
-      "score": 31.033585560512865,
-      "rank": 505
+      "score": 32.10635011754415,
+      "rank": 554
     },
     "190": {
-      "score": 54.966977261548095,
+      "score": 57.136789297658865,
       "rank": 269
     },
     "191": {
-      "score": 44.875864006038555,
-      "rank": 369
+      "score": 45.0218706549923,
+      "rank": 411
     },
     "192": {
-      "score": 61.87891638204138,
-      "rank": 178
+      "score": 64.75542071002536,
+      "rank": 152
     },
     "193": {
-      "score": 42.50924991188149,
-      "rank": 391
+      "score": 43.04276158623985,
+      "rank": 426
     },
     "194": {
-      "score": 62.84901566024057,
-      "rank": 158
+      "score": 63.92137614415346,
+      "rank": 163
     },
     "195": {
-      "score": 57.20597243541169,
-      "rank": 244
+      "score": 59.98707881361107,
+      "rank": 229
     },
     "196": {
-      "score": 71.60880457010688,
-      "rank": 83
+      "score": 70.08713082408735,
+      "rank": 106
     },
     "197": {
-      "score": 85.99855620569906,
-      "rank": 34
+      "score": 92.23521004225701,
+      "rank": 36
     },
     "198": {
-      "score": 57.78460809248624,
-      "rank": 233
+      "score": 56.98287301923665,
+      "rank": 271
+    },
+    "199": {
+      "score": 35.34602492055908,
+      "rank": 517
     },
     "200": {
-      "score": 42.375158919817075,
-      "rank": 392
+      "score": 40.863476554965914,
+      "rank": 452
     },
     "201": {
-      "score": 62.59015099810173,
-      "rank": 166
+      "score": 61.54943529294178,
+      "rank": 199
+    },
+    "202": {
+      "score": 44.329223772634386,
+      "rank": 419
     },
     "203": {
-      "score": 49.888962538528915,
-      "rank": 323
+      "score": 51.413319634003706,
+      "rank": 339
     },
     "204": {
-      "score": 67.91542422749059,
-      "rank": 109
+      "score": 62.3827461670666,
+      "rank": 183
     },
     "205": {
-      "score": 71.69845353140425,
-      "rank": 82
+      "score": 73.57297808012093,
+      "rank": 80
     },
     "206": {
-      "score": 41.80518198732484,
-      "rank": 397
+      "score": 40.64826920531618,
+      "rank": 456
+    },
+    "207": {
+      "score": 93.56172607879924,
+      "rank": 31
     },
     "208": {
-      "score": 45.48260928117065,
-      "rank": 363
+      "score": 46.60390086104372,
+      "rank": 387
     },
     "209": {
-      "score": 53.571699909009055,
-      "rank": 289
+      "score": 55.05504117663416,
+      "rank": 297
     },
     "210": {
-      "score": 61.157806382372755,
-      "rank": 192
+      "score": 61.81040739472783,
+      "rank": 196
     },
     "211": {
-      "score": 55.94038475470772,
-      "rank": 260
+      "score": 56.89004652162766,
+      "rank": 272
     },
     "212": {
-      "score": 40.958048690119526,
-      "rank": 408
+      "score": 42.03706800445931,
+      "rank": 435
     },
     "213": {
-      "score": 60.85827857399474,
-      "rank": 198
+      "score": 62.928775587656254,
+      "rank": 174
     },
     "214": {
-      "score": 66.8377894704166,
-      "rank": 119
-    },
-    "215": {
-      "score": 61.441253792646975,
-      "rank": 185
-    },
-    "217": {
-      "score": 46.960205372271744,
-      "rank": 349
-    },
-    "218": {
-      "score": 63.48625509825498,
-      "rank": 149
-    },
-    "219": {
-      "score": 68.0677474555774,
+      "score": 69.95908599660336,
       "rank": 108
     },
+    "215": {
+      "score": 62.74788979136805,
+      "rank": 177
+    },
+    "216": {
+      "score": 31.87993487993488,
+      "rank": 558
+    },
+    "217": {
+      "score": 46.06444116583477,
+      "rank": 394
+    },
+    "218": {
+      "score": 66.69522838780169,
+      "rank": 133
+    },
+    "219": {
+      "score": 66.39263518931301,
+      "rank": 141
+    },
     "220": {
-      "score": 30.766466682826977,
-      "rank": 507
+      "score": 31.530953292147323,
+      "rank": 560
     },
     "221": {
-      "score": 39.08606547854973,
-      "rank": 437
+      "score": 39.91784210283796,
+      "rank": 465
     },
     "222": {
-      "score": 54.67342739036664,
-      "rank": 275
+      "score": 59.20276237720066,
+      "rank": 236
     },
     "223": {
-      "score": 54.25196278452105,
-      "rank": 282
+      "score": 52.49559757013173,
+      "rank": 321
     },
     "224": {
-      "score": 40.728865064484076,
-      "rank": 410
+      "score": 40.44262744984715,
+      "rank": 459
     },
     "225": {
-      "score": 45.26226459983969,
-      "rank": 366
+      "score": 45.63798767700864,
+      "rank": 401
     },
     "226": {
-      "score": 61.0489815384646,
-      "rank": 195
+      "score": 60.90058380139756,
+      "rank": 212
     },
     "227": {
-      "score": 157.37835913716918,
+      "score": 161.06507936507936,
       "rank": 6
     },
     "228": {
-      "score": 61.806538818199996,
-      "rank": 179
+      "score": 62.284212838967996,
+      "rank": 186
     },
     "229": {
-      "score": 71.33692743020424,
-      "rank": 87
+      "score": 72.33804669574303,
+      "rank": 88
     },
     "230": {
-      "score": 68.40897150180595,
-      "rank": 107
+      "score": 68.0483491040283,
+      "rank": 121
     },
     "231": {
-      "score": 35.2279242274906,
-      "rank": 472
+      "score": 35.460594660645434,
+      "rank": 515
     },
     "232": {
-      "score": 62.19025981101822,
-      "rank": 174
+      "score": 64.67291703005989,
+      "rank": 154
+    },
+    "233": {
+      "score": 39.2505450307255,
+      "rank": 476
     },
     "234": {
-      "score": 39.90690641134566,
-      "rank": 425
+      "score": 39.67351489090619,
+      "rank": 469
     },
     "235": {
-      "score": 61.33074244051687,
-      "rank": 190
+      "score": 57.29772079772079,
+      "rank": 268
     },
     "236": {
-      "score": 60.47203990723574,
-      "rank": 202
+      "score": 62.332144210729545,
+      "rank": 185
     },
     "237": {
-      "score": 68.42776274799147,
-      "rank": 106
+      "score": 70.62614415926579,
+      "rank": 101
     },
     "238": {
-      "score": 47.78063447601262,
-      "rank": 342
+      "score": 47.874919584596995,
+      "rank": 367
     },
     "239": {
-      "score": 39.306097438975584,
-      "rank": 432
+      "score": 39.282326992004414,
+      "rank": 475
     },
     "240": {
-      "score": 50.224727642402186,
-      "rank": 317
+      "score": 49.65886287625418,
+      "rank": 356
     },
     "241": {
-      "score": 29.90970618510562,
-      "rank": 510
+      "score": 30.344750605944636,
+      "rank": 568
     },
     "242": {
-      "score": 37.39750620295941,
-      "rank": 448
+      "score": 36.07381481495998,
+      "rank": 504
+    },
+    "243": {
+      "score": 48.3356599806865,
+      "rank": 364
     },
     "244": {
-      "score": 69.33558977819783,
-      "rank": 102
+      "score": 68.89801492768878,
+      "rank": 119
+    },
+    "245": {
+      "score": 56.59903381642512,
+      "rank": 277
     },
     "246": {
-      "score": 56.356328271895286,
-      "rank": 252
+      "score": 53.56007776712475,
+      "rank": 311
     },
     "247": {
-      "score": 60.95607378333913,
-      "rank": 196
+      "score": 61.194041779059724,
+      "rank": 205
     },
     "248": {
-      "score": 102.6150940570333,
+      "score": 112.11961630978493,
       "rank": 18
     },
     "249": {
-      "score": 56.45886964659391,
-      "rank": 250
+      "score": 58.01615021620099,
+      "rank": 253
     },
     "250": {
-      "score": 53.72554406377935,
-      "rank": 287
+      "score": 56.45970695970696,
+      "rank": 280
     },
     "251": {
-      "score": 65.46573208618281,
-      "rank": 130
+      "score": 66.15194685961495,
+      "rank": 142
     },
     "252": {
-      "score": 27.83869313676015,
-      "rank": 519
+      "score": 28.19673846299404,
+      "rank": 577
     },
     "253": {
-      "score": 29.38282967032967,
-      "rank": 512
+      "score": 29.115099087876402,
+      "rank": 570
+    },
+    "254": {
+      "score": 39.18090243090243,
+      "rank": 477
     },
     "255": {
-      "score": 62.53457729245544,
-      "rank": 169
+      "score": 64.36182336182335,
+      "rank": 156
     },
     "256": {
-      "score": 63.35265043020868,
-      "rank": 151
+      "score": 66.5269237358044,
+      "rank": 137
     },
     "257": {
-      "score": 63.20824441881143,
-      "rank": 153
+      "score": 64.9065165135635,
+      "rank": 150
     },
     "258": {
-      "score": 57.88577133650662,
-      "rank": 229
+      "score": 58.5948717948718,
+      "rank": 243
     },
     "259": {
-      "score": 62.17527950310559,
-      "rank": 175
+      "score": 61.96744738163722,
+      "rank": 192
     },
     "260": {
-      "score": 34.624021354474564,
-      "rank": 480
+      "score": 34.81636224043423,
+      "rank": 530
+    },
+    "261": {
+      "score": 66.57546238250936,
+      "rank": 136
+    },
+    "262": {
+      "score": 61.898517546075205,
+      "rank": 194
     },
     "263": {
-      "score": 59.05136784155921,
-      "rank": 215
+      "score": 59.14940113127923,
+      "rank": 237
     },
     "264": {
-      "score": 43.506337462596065,
-      "rank": 381
+      "score": 44.92338194625057,
+      "rank": 412
     },
     "265": {
-      "score": 72.91722262190927,
-      "rank": 76
+      "score": 76.30445785151667,
+      "rank": 67
     },
     "266": {
-      "score": 75.51520089464015,
-      "rank": 63
+      "score": 76.47640072142724,
+      "rank": 66
     },
     "267": {
-      "score": 97.12459240635746,
-      "rank": 23
+      "score": 93.35983014780034,
+      "rank": 33
     },
     "268": {
-      "score": 38.70537373876684,
-      "rank": 441
+      "score": 39.29066844128956,
+      "rank": 474
     },
     "269": {
-      "score": 61.64419815182527,
-      "rank": 183
+      "score": 63.38645808975086,
+      "rank": 169
     },
     "270": {
-      "score": 42.624826507453626,
-      "rank": 388
+      "score": 42.6058901728193,
+      "rank": 429
+    },
+    "271": {
+      "score": 65.81746042075319,
+      "rank": 143
     },
     "272": {
-      "score": 70.25181970408504,
-      "rank": 92
+      "score": 66.82977854067634,
+      "rank": 131
     },
     "273": {
-      "score": 45.398311355938475,
-      "rank": 364
+      "score": 41.812837696840006,
+      "rank": 440
+    },
+    "274": {
+      "score": 40.53462157809984,
+      "rank": 458
     },
     "275": {
-      "score": 41.724633954073205,
-      "rank": 398
+      "score": 41.15831793275622,
+      "rank": 448
     },
     "276": {
-      "score": 56.186063486732294,
-      "rank": 254
+      "score": 55.76095488628092,
+      "rank": 289
     },
     "277": {
-      "score": 62.682810236689576,
-      "rank": 164
+      "score": 60.86862603307617,
+      "rank": 214
     },
     "278": {
-      "score": 32.63102273619728,
-      "rank": 498
+      "score": 33.99390561129692,
+      "rank": 542
     },
     "279": {
-      "score": 43.98304284879497,
-      "rank": 378
+      "score": 43.54084350533031,
+      "rank": 425
     },
     "280": {
-      "score": 70.22114392821476,
-      "rank": 93
+      "score": 69.17809364548495,
+      "rank": 115
     },
     "281": {
-      "score": 38.87893248149075,
-      "rank": 438
+      "score": 38.90426578373469,
+      "rank": 479
     },
     "282": {
-      "score": 58.0569425956346,
-      "rank": 224
+      "score": 61.227905296146304,
+      "rank": 204
     },
     "283": {
-      "score": 58.97776033490319,
-      "rank": 217
+      "score": 54.602324018054354,
+      "rank": 302
     },
     "284": {
-      "score": 64.44949785177228,
+      "score": 66.46414737987772,
       "rank": 138
     },
     "285": {
-      "score": 57.83383846621399,
-      "rank": 232
+      "score": 56.40224034277743,
+      "rank": 281
     },
     "286": {
-      "score": 71.13926305047181,
-      "rank": 90
+      "score": 71.05309364548495,
+      "rank": 97
     },
     "287": {
-      "score": 48.50713973526473,
-      "rank": 332
+      "score": 49.00647672471773,
+      "rank": 361
     },
     "288": {
-      "score": 76.97582741053235,
-      "rank": 56
+      "score": 75.2502226493428,
+      "rank": 71
     },
     "289": {
-      "score": 62.55451091342328,
-      "rank": 167
+      "score": 63.98868140715967,
+      "rank": 162
     },
     "290": {
-      "score": 58.44602904059987,
-      "rank": 219
+      "score": 57.77136552512046,
+      "rank": 258
     },
     "291": {
-      "score": 43.62788959983969,
-      "rank": 380
+      "score": 44.86107528897906,
+      "rank": 413
     },
     "292": {
-      "score": 39.75228951661249,
-      "rank": 428
+      "score": 39.986198661803726,
+      "rank": 464
     },
     "293": {
-      "score": 52.31777977253901,
-      "rank": 298
+      "score": 51.979144706123705,
+      "rank": 328
     },
     "294": {
-      "score": 54.63253783372984,
-      "rank": 277
+      "score": 54.956980968175,
+      "rank": 298
     },
     "295": {
-      "score": 44.656348547727895,
-      "rank": 371
+      "score": 45.911888371910734,
+      "rank": 398
     },
     "296": {
-      "score": 66.69578188134889,
-      "rank": 122
+      "score": 67.9252858849633,
+      "rank": 123
     },
     "297": {
-      "score": 38.506501012195145,
-      "rank": 443
+      "score": 39.02777788107065,
+      "rank": 478
     },
     "298": {
-      "score": 39.222172157739166,
-      "rank": 435
+      "score": 39.537267080745345,
+      "rank": 473
     },
     "299": {
-      "score": 42.865384754707726,
-      "rank": 386
+      "score": 43.58421355014119,
+      "rank": 424
     },
     "300": {
-      "score": 309.17255046522496,
+      "score": 340.54840515216006,
       "rank": 3
     },
     "301": {
-      "score": 47.368995656062026,
-      "rank": 345
+      "score": 46.519498303818736,
+      "rank": 388
     },
     "302": {
-      "score": 66.82156350713052,
-      "rank": 121
+      "score": 70.01321786374311,
+      "rank": 107
     },
     "303": {
-      "score": 44.50285349552804,
-      "rank": 374
-    },
-    "304": {
-      "score": 52.06423426230127,
-      "rank": 302
-    },
-    "305": {
-      "score": 75.3678912598305,
-      "rank": 64
-    },
-    "307": {
-      "score": 73.5630192250856,
-      "rank": 73
-    },
-    "308": {
-      "score": 32.1022508268172,
-      "rank": 502
-    },
-    "309": {
-      "score": 32.3245011821283,
-      "rank": 499
-    },
-    "310": {
-      "score": 48.23806397325981,
-      "rank": 335
-    },
-    "311": {
-      "score": 36.21387954151112,
-      "rank": 456
-    },
-    "312": {
-      "score": 76.64618135791497,
-      "rank": 58
-    },
-    "313": {
-      "score": 41.08013910207836,
+      "score": 45.16675249109566,
       "rank": 406
     },
-    "314": {
-      "score": 61.51813578509034,
-      "rank": 184
-    },
-    "315": {
-      "score": 71.8993016590761,
-      "rank": 80
-    },
-    "316": {
-      "score": 86.85786157633984,
-      "rank": 32
-    },
-    "317": {
-      "score": 36.94974274294698,
-      "rank": 451
-    },
-    "318": {
-      "score": 35.61797968992978,
-      "rank": 466
-    },
-    "319": {
-      "score": 35.3544772615481,
-      "rank": 469
-    },
-    "321": {
-      "score": 57.76460513917151,
-      "rank": 235
-    },
-    "323": {
-      "score": 35.65773744976403,
-      "rank": 463
-    },
-    "325": {
-      "score": 62.91385586743305,
-      "rank": 156
-    },
-    "326": {
-      "score": 57.70627690355134,
-      "rank": 240
-    },
-    "327": {
-      "score": 65.0284940280604,
-      "rank": 131
-    },
-    "328": {
-      "score": 59.732791578169724,
-      "rank": 209
-    },
-    "329": {
-      "score": 51.197653445197254,
-      "rank": 311
-    },
-    "330": {
-      "score": 51.36855884050893,
-      "rank": 308
-    },
-    "331": {
-      "score": 49.38116548560474,
-      "rank": 330
-    },
-    "332": {
-      "score": 34.61472512449956,
-      "rank": 481
-    },
-    "333": {
-      "score": 33.621553039227585,
-      "rank": 493
-    },
-    "334": {
-      "score": 62.21937210290815,
-      "rank": 173
-    },
-    "335": {
-      "score": 57.92970951546163,
-      "rank": 226
-    },
-    "336": {
-      "score": 29.617474148157413,
-      "rank": 511
-    },
-    "337": {
-      "score": 57.70987454544155,
-      "rank": 239
-    },
-    "338": {
-      "score": 125.22752601040415,
-      "rank": 12
-    },
-    "339": {
-      "score": 74.61738827945464,
-      "rank": 68
-    },
-    "340": {
-      "score": 49.61410338104264,
+    "304": {
+      "score": 52.269755186479586,
       "rank": 325
     },
+    "305": {
+      "score": 74.36417869864317,
+      "rank": 77
+    },
+    "306": {
+      "score": 72.26142697881828,
+      "rank": 89
+    },
+    "307": {
+      "score": 74.72008481408267,
+      "rank": 75
+    },
+    "308": {
+      "score": 33.819103046901745,
+      "rank": 543
+    },
+    "309": {
+      "score": 32.141721760744865,
+      "rank": 553
+    },
+    "310": {
+      "score": 48.85232436727333,
+      "rank": 362
+    },
+    "311": {
+      "score": 35.143467643467645,
+      "rank": 520
+    },
+    "312": {
+      "score": 77.89797332335719,
+      "rank": 61
+    },
+    "313": {
+      "score": 40.24633807287033,
+      "rank": 462
+    },
+    "314": {
+      "score": 62.124585669829976,
+      "rank": 189
+    },
+    "315": {
+      "score": 71.81542531542532,
+      "rank": 91
+    },
+    "316": {
+      "score": 88.52370490416791,
+      "rank": 40
+    },
+    "317": {
+      "score": 35.814984989201015,
+      "rank": 509
+    },
+    "318": {
+      "score": 34.83972181553162,
+      "rank": 529
+    },
+    "319": {
+      "score": 34.956065673456976,
+      "rank": 524
+    },
+    "320": {
+      "score": 74.99236326364023,
+      "rank": 72
+    },
+    "321": {
+      "score": 60.80874280879358,
+      "rank": 218
+    },
+    "322": {
+      "score": 46.2939251637613,
+      "rank": 390
+    },
+    "323": {
+      "score": 34.49230224083858,
+      "rank": 533
+    },
+    "324": {
+      "score": 33.04605660310358,
+      "rank": 549
+    },
+    "325": {
+      "score": 59.61349314929507,
+      "rank": 231
+    },
+    "326": {
+      "score": 58.757348543712176,
+      "rank": 241
+    },
+    "327": {
+      "score": 66.60874280879358,
+      "rank": 135
+    },
+    "328": {
+      "score": 61.26110273169097,
+      "rank": 203
+    },
+    "329": {
+      "score": 52.00147270062549,
+      "rank": 327
+    },
+    "330": {
+      "score": 51.394854506906036,
+      "rank": 340
+    },
+    "331": {
+      "score": 51.812439796555495,
+      "rank": 333
+    },
+    "332": {
+      "score": 34.709835253313514,
+      "rank": 531
+    },
+    "333": {
+      "score": 33.54775176514307,
+      "rank": 546
+    },
+    "334": {
+      "score": 63.79527879527879,
+      "rank": 166
+    },
+    "335": {
+      "score": 60.88932835381516,
+      "rank": 213
+    },
+    "336": {
+      "score": 30.502158672233367,
+      "rank": 567
+    },
+    "337": {
+      "score": 59.37226961568023,
+      "rank": 233
+    },
+    "338": {
+      "score": 118.0985754985755,
+      "rank": 13
+    },
+    "339": {
+      "score": 78.76162139198289,
+      "rank": 56
+    },
+    "340": {
+      "score": 49.134219001610305,
+      "rank": 359
+    },
     "341": {
-      "score": 39.97939369903656,
-      "rank": 423
+      "score": 39.90656351570446,
+      "rank": 466
     },
     "342": {
-      "score": 34.37619313676015,
-      "rank": 485
+      "score": 34.04341110045808,
+      "rank": 541
+    },
+    "343": {
+      "score": 35.05426503552805,
+      "rank": 523
     },
     "344": {
-      "score": 76.31407112267974,
-      "rank": 59
+      "score": 75.97863064282048,
+      "rank": 69
     },
     "345": {
-      "score": 96.50863801307727,
-      "rank": 25
+      "score": 92.47587025080631,
+      "rank": 34
     },
     "346": {
-      "score": 49.38124610352054,
-      "rank": 329
-    },
-    "347": {
-      "score": 78.93750691259471,
-      "rank": 52
-    },
-    "348": {
-      "score": 44.93054620817779,
-      "rank": 367
-    },
-    "349": {
-      "score": 35.655245572184825,
-      "rank": 464
-    },
-    "350": {
-      "score": 62.11759207521919,
-      "rank": 176
-    },
-    "351": {
-      "score": 71.46633169462116,
-      "rank": 85
-    },
-    "353": {
-      "score": 57.9026277089085,
-      "rank": 228
-    },
-    "354": {
-      "score": 35.3544772615481,
-      "rank": 470
-    },
-    "355": {
-      "score": 47.05498101554802,
+      "score": 50.787128746337345,
       "rank": 347
     },
+    "347": {
+      "score": 79.1624962128478,
+      "rank": 53
+    },
+    "348": {
+      "score": 46.01712056059882,
+      "rank": 395
+    },
+    "349": {
+      "score": 34.68243717394863,
+      "rank": 532
+    },
+    "350": {
+      "score": 62.036866603795744,
+      "rank": 191
+    },
+    "351": {
+      "score": 73.14916564916564,
+      "rank": 85
+    },
+    "352": {
+      "score": 58.353466411327155,
+      "rank": 249
+    },
+    "353": {
+      "score": 57.62862953126475,
+      "rank": 260
+    },
+    "354": {
+      "score": 36.51325848064979,
+      "rank": 496
+    },
+    "355": {
+      "score": 45.5252226493428,
+      "rank": 402
+    },
     "356": {
-      "score": 39.49859921904995,
-      "rank": 430
+      "score": 38.339509780999144,
+      "rank": 483
     },
     "357": {
-      "score": 133.5877576334098,
+      "score": 135.9777777777778,
       "rank": 9
     },
     "358": {
-      "score": 98.34770267504709,
-      "rank": 21
+      "score": 100.6029819005942,
+      "rank": 24
+    },
+    "359": {
+      "score": 41.982234258840805,
+      "rank": 436
     },
     "360": {
-      "score": 51.41229685423611,
-      "rank": 307
+      "score": 51.080772588014376,
+      "rank": 343
     },
     "361": {
-      "score": 54.966977261548095,
-      "rank": 270
+      "score": 58.745950922550826,
+      "rank": 242
     },
     "362": {
-      "score": 70.22114392821476,
-      "rank": 94
+      "score": 69.17809364548495,
+      "rank": 116
     },
     "363": {
-      "score": 74.23502601040417,
-      "rank": 70
+      "score": 69.19842466901291,
+      "rank": 114
     },
     "364": {
-      "score": 57.92849286102389,
-      "rank": 227
+      "score": 57.98879097093383,
+      "rank": 254
     },
     "365": {
-      "score": 52.102624857064114,
-      "rank": 301
-    },
-    "366": {
-      "score": 69.93800086535353,
-      "rank": 96
-    },
-    "367": {
-      "score": 72.69292415055126,
-      "rank": 77
-    },
-    "368": {
-      "score": 48.40159762190928,
+      "score": 51.72575557951051,
       "rank": 334
     },
+    "366": {
+      "score": 71.5284829771152,
+      "rank": 94
+    },
+    "367": {
+      "score": 71.95740532433446,
+      "rank": 90
+    },
+    "368": {
+      "score": 49.19450760276045,
+      "rank": 357
+    },
     "369": {
-      "score": 44.13391350142434,
-      "rank": 376
+      "score": 44.738856497274995,
+      "rank": 415
     },
     "370": {
-      "score": 56.08795839852541,
-      "rank": 255
+      "score": 56.69418208054571,
+      "rank": 274
     },
     "371": {
-      "score": 45.935291101368286,
-      "rank": 360
+      "score": 46.46683853200715,
+      "rank": 389
     },
     "372": {
-      "score": 33.62419482146926,
-      "rank": 491
+      "score": 32.84188034188034,
+      "rank": 550
     },
     "373": {
-      "score": 35.918207878774886,
-      "rank": 460
+      "score": 36.205318048728664,
+      "rank": 503
     },
     "374": {
-      "score": 72.46554446193193,
+      "score": 74.22601144174178,
       "rank": 78
     },
     "375": {
-      "score": 75.96408512122798,
-      "rank": 61
+      "score": 76.03609706373229,
+      "rank": 68
     },
     "376": {
-      "score": 79.530350678283,
-      "rank": 51
+      "score": 81.6897176897177,
+      "rank": 49
     },
     "377": {
-      "score": 70.69166680598978,
-      "rank": 91
+      "score": 66.4170862965552,
+      "rank": 140
     },
     "378": {
-      "score": 69.46421713189167,
-      "rank": 100
+      "score": 70.54683820059313,
+      "rank": 102
     },
     "379": {
-      "score": 73.11703661574091,
-      "rank": 75
+      "score": 78.0020740613945,
+      "rank": 60
     },
     "380": {
-      "score": 41.21605757181415,
-      "rank": 403
+      "score": 43.924115685309715,
+      "rank": 422
+    },
+    "381": {
+      "score": 55.17890660297859,
+      "rank": 295
     },
     "382": {
-      "score": 36.192417774982026,
-      "rank": 457
+      "score": 36.255750234335565,
+      "rank": 501
     },
     "383": {
-      "score": 60.93135413391239,
-      "rank": 197
+      "score": 60.135485544366205,
+      "rank": 227
     },
     "384": {
-      "score": 49.40445613708326,
-      "rank": 328
+      "score": 50.349562187079556,
+      "rank": 349
     },
     "385": {
-      "score": 66.27481884889269,
-      "rank": 126
+      "score": 70.81204609068605,
+      "rank": 100
     },
     "386": {
-      "score": 71.86463109407035,
-      "rank": 81
+      "score": 74.7437880182263,
+      "rank": 74
     },
     "387": {
-      "score": 35.190678820853364,
-      "rank": 474
+      "score": 31.69754633066797,
+      "rank": 559
     },
     "388": {
-      "score": 40.02274403824467,
-      "rank": 421
+      "score": 40.67508474961891,
+      "rank": 454
     },
     "389": {
-      "score": 39.17116451843895,
-      "rank": 436
+      "score": 41.63081404654439,
+      "rank": 441
     },
     "390": {
-      "score": 73.89910944420171,
-      "rank": 71
+      "score": 73.00549097930039,
+      "rank": 87
     },
     "391": {
-      "score": 39.271391054784154,
-      "rank": 434
+      "score": 39.57086167800453,
+      "rank": 471
     },
     "392": {
-      "score": 61.377924227490595,
-      "rank": 187
+      "score": 62.09357237789281,
+      "rank": 190
+    },
+    "393": {
+      "score": 28.82216979494711,
+      "rank": 573
     },
     "394": {
-      "score": 45.70866451843895,
-      "rank": 362
+      "score": 47.064509564509564,
+      "rank": 377
+    },
+    "395": {
+      "score": 53.75245844011985,
+      "rank": 310
     },
     "396": {
-      "score": 62.30140380354677,
-      "rank": 171
+      "score": 61.67972165304791,
+      "rank": 198
     },
     "397": {
-      "score": 67.36602343640158,
-      "rank": 117
+      "score": 70.39053023657128,
+      "rank": 104
     },
     "398": {
-      "score": 44.81077133650663,
-      "rank": 370
+      "score": 44.40942205942206,
+      "rank": 418
     },
     "399": {
-      "score": 87.13767884257575,
+      "score": 93.63895421348836,
       "rank": 30
     },
     "400": {
-      "score": 62.887011221461314,
-      "rank": 157
+      "score": 66.63066268785632,
+      "rank": 134
     },
     "401": {
-      "score": 27.611218088041063,
-      "rank": 521
+      "score": 27.793375175033155,
+      "rank": 578
     },
     "402": {
-      "score": 39.97976456533158,
-      "rank": 422
+      "score": 39.55836836541535,
+      "rank": 472
     },
     "403": {
-      "score": 32.197026470093476,
-      "rank": 500
+      "score": 30.965775772822752,
+      "rank": 563
     },
     "404": {
-      "score": 46.06800947244872,
-      "rank": 357
+      "score": 46.87234128314319,
+      "rank": 381
     },
     "405": {
-      "score": 83.42303380045104,
-      "rank": 42
+      "score": 79.2498821281749,
+      "rank": 52
     },
     "406": {
-      "score": 61.71979872736298,
-      "rank": 181
+      "score": 65.25575023433557,
+      "rank": 148
+    },
+    "407": {
+      "score": 55.66454481308116,
+      "rank": 290
     },
     "408": {
-      "score": 40.68778947041659,
-      "rank": 411
+      "score": 41.38941077207024,
+      "rank": 444
     },
     "409": {
-      "score": 54.67342739036664,
-      "rank": 276
+      "score": 56.65331182775011,
+      "rank": 275
     },
     "410": {
-      "score": 53.07648383443457,
-      "rank": 292
+      "score": 51.91366639358657,
+      "rank": 330
     },
     "411": {
-      "score": 52.3175557858326,
-      "rank": 299
+      "score": 52.07799159932429,
+      "rank": 326
     },
     "412": {
-      "score": 50.072964427403676,
-      "rank": 321
+      "score": 46.919463693901974,
+      "rank": 380
     },
     "413": {
-      "score": 26.716141783816326,
-      "rank": 523
+      "score": 26.762611395733035,
+      "rank": 580
     },
     "414": {
-      "score": 37.34537623015066,
-      "rank": 449
+      "score": 38.08142261778625,
+      "rank": 485
     },
     "415": {
-      "score": 35.223349238480814,
-      "rank": 473
+      "score": 35.58962148962149,
+      "rank": 514
     },
     "416": {
-      "score": 74.81391749348387,
+      "score": 76.9770740613945,
       "rank": 65
     },
     "417": {
-      "score": 52.82728951661249,
-      "rank": 295
+      "score": 52.371396712655276,
+      "rank": 324
     },
     "418": {
-      "score": 36.17050028569166,
-      "rank": 458
+      "score": 37.60045714597162,
+      "rank": 487
     },
     "419": {
-      "score": 66.19187977131902,
-      "rank": 127
-    },
-    "420": {
-      "score": 70.11519012639442,
-      "rank": 95
-    },
-    "421": {
-      "score": 60.84305631343446,
-      "rank": 199
-    },
-    "422": {
-      "score": 30.66170450039651,
-      "rank": 508
-    },
-    "423": {
-      "score": 81.74159787475004,
-      "rank": 47
-    },
-    "424": {
-      "score": 69.73618076874503,
-      "rank": 97
-    },
-    "425": {
-      "score": 59.002688610289134,
-      "rank": 216
-    },
-    "426": {
-      "score": 57.0070127315791,
-      "rank": 246
-    },
-    "427": {
-      "score": 78.47498924805625,
-      "rank": 53
-    },
-    "428": {
-      "score": 72.15402312858949,
-      "rank": 79
-    },
-    "429": {
-      "score": 51.196897044559655,
-      "rank": 312
-    },
-    "430": {
-      "score": 61.40376962335828,
-      "rank": 186
-    },
-    "431": {
-      "score": 46.925451843213715,
-      "rank": 350
-    },
-    "432": {
-      "score": 71.23649857206559,
-      "rank": 89
-    },
-    "433": {
-      "score": 65.66652947623442,
-      "rank": 129
-    },
-    "434": {
-      "score": 55.91874610352053,
-      "rank": 261
-    },
-    "435": {
-      "score": 56.053204885832,
-      "rank": 257
-    },
-    "436": {
-      "score": 84.2049630256152,
-      "rank": 40
-    },
-    "437": {
-      "score": 44.52002815480259,
-      "rank": 373
-    },
-    "438": {
-      "score": 34.536125285691654,
-      "rank": 482
-    },
-    "439": {
-      "score": 59.79426556883194,
-      "rank": 208
-    },
-    "440": {
-      "score": 124.40676072369996,
-      "rank": 13
-    },
-    "441": {
-      "score": 27.165026010404162,
-      "rank": 522
-    },
-    "442": {
-      "score": 59.356057510493144,
-      "rank": 212
-    },
-    "443": {
-      "score": 63.542212516652604,
-      "rank": 148
-    },
-    "444": {
-      "score": 81.3273295003965,
-      "rank": 49
-    },
-    "445": {
-      "score": 56.81170450039651,
-      "rank": 247
-    },
-    "446": {
-      "score": 46.35558380195869,
-      "rank": 353
-    },
-    "447": {
-      "score": 85.64748892205529,
-      "rank": 36
-    },
-    "448": {
-      "score": 66.83103659799116,
-      "rank": 120
-    },
-    "449": {
-      "score": 64.26541555473852,
-      "rank": 140
-    },
-    "450": {
-      "score": 42.177063047441194,
-      "rank": 394
-    },
-    "451": {
-      "score": 67.76803450822588,
+      "score": 69.53466201877772,
       "rank": 112
     },
+    "420": {
+      "score": 66.91414891951041,
+      "rank": 129
+    },
+    "421": {
+      "score": 57.404752654752656,
+      "rank": 266
+    },
+    "422": {
+      "score": 30.909723477964487,
+      "rank": 565
+    },
+    "423": {
+      "score": 78.85201976169718,
+      "rank": 55
+    },
+    "424": {
+      "score": 68.86055953255548,
+      "rank": 120
+    },
+    "425": {
+      "score": 60.61011509769274,
+      "rank": 221
+    },
+    "426": {
+      "score": 56.72238559366255,
+      "rank": 273
+    },
+    "427": {
+      "score": 79.06176126880824,
+      "rank": 54
+    },
+    "428": {
+      "score": 73.15653534085577,
+      "rank": 84
+    },
+    "429": {
+      "score": 51.4579699401128,
+      "rank": 338
+    },
+    "430": {
+      "score": 61.84430671784306,
+      "rank": 195
+    },
+    "431": {
+      "score": 45.29827315541602,
+      "rank": 404
+    },
+    "432": {
+      "score": 70.93785554490252,
+      "rank": 98
+    },
+    "433": {
+      "score": 60.554141872552485,
+      "rank": 223
+    },
+    "434": {
+      "score": 56.63380138380139,
+      "rank": 276
+    },
+    "435": {
+      "score": 58.38412708741985,
+      "rank": 247
+    },
+    "436": {
+      "score": 85.2181871415073,
+      "rank": 44
+    },
+    "437": {
+      "score": 45.86368140715967,
+      "rank": 399
+    },
+    "438": {
+      "score": 35.460594660645434,
+      "rank": 516
+    },
+    "439": {
+      "score": 63.10246793888235,
+      "rank": 172
+    },
+    "440": {
+      "score": 117.20276237720066,
+      "rank": 15
+    },
+    "441": {
+      "score": 27.089503505233843,
+      "rank": 579
+    },
+    "442": {
+      "score": 55.848640772306155,
+      "rank": 288
+    },
+    "443": {
+      "score": 60.45664960370843,
+      "rank": 224
+    },
+    "444": {
+      "score": 86.47693169970901,
+      "rank": 43
+    },
+    "445": {
+      "score": 57.872324883518914,
+      "rank": 256
+    },
+    "446": {
+      "score": 46.83314368025328,
+      "rank": 382
+    },
+    "447": {
+      "score": 90.18675148074934,
+      "rank": 38
+    },
+    "448": {
+      "score": 65.75397574981294,
+      "rank": 144
+    },
+    "449": {
+      "score": 63.855419566317366,
+      "rank": 165
+    },
+    "450": {
+      "score": 42.05413105413105,
+      "rank": 434
+    },
+    "451": {
+      "score": 70.42717890905702,
+      "rank": 103
+    },
     "452": {
-      "score": 82.07731402195688,
-      "rank": 46
+      "score": 78.4483409150653,
+      "rank": 58
     },
     "453": {
-      "score": 62.53605786868499,
+      "score": 63.60041607702263,
       "rank": 168
     },
     "454": {
-      "score": 61.69857307801232,
-      "rank": 182
+      "score": 61.79965541704672,
+      "rank": 197
     },
     "455": {
-      "score": 39.753860898988016,
-      "rank": 427
+      "score": 41.02407199100112,
+      "rank": 449
     },
     "456": {
-      "score": 41.1319567244047,
-      "rank": 405
+      "score": 41.53323766035933,
+      "rank": 442
     },
     "457": {
-      "score": 63.056322796514166,
-      "rank": 154
+      "score": 64.66712381263828,
+      "rank": 155
     },
     "458": {
-      "score": 81.43857824914525,
-      "rank": 48
+      "score": 78.70560294901357,
+      "rank": 57
     },
     "459": {
-      "score": 45.78533699740337,
-      "rank": 361
+      "score": 46.922997053358536,
+      "rank": 379
+    },
+    "460": {
+      "score": 45.076771718235015,
+      "rank": 409
     },
     "461": {
-      "score": 58.238872851772285,
-      "rank": 222
+      "score": 62.4135336747277,
+      "rank": 182
     },
     "462": {
-      "score": 54.35655376450449,
-      "rank": 280
+      "score": 52.428314252530285,
+      "rank": 322
     },
     "463": {
-      "score": 40.52687013498095,
-      "rank": 413
+      "score": 41.339036651825815,
+      "rank": 445
+    },
+    "464": {
+      "score": 43.702832768563106,
+      "rank": 423
     },
     "465": {
-      "score": 36.62496463553165,
-      "rank": 453
+      "score": 34.84896665601364,
+      "rank": 528
     },
     "466": {
-      "score": 162.58118726433943,
+      "score": 165.4358126721763,
       "rank": 5
     },
     "467": {
-      "score": 55.28857824914526,
-      "rank": 267
+      "score": 55.60700155041217,
+      "rank": 291
     },
     "468": {
-      "score": 73.62557385501312,
-      "rank": 72
+      "score": 73.21942904386732,
+      "rank": 82
+    },
+    "469": {
+      "score": 73.2022792022792,
+      "rank": 83
     },
     "470": {
-      "score": 57.71551596272091,
-      "rank": 238
+      "score": 58.12952221156919,
+      "rank": 252
     },
     "471": {
-      "score": 59.28322981560534,
-      "rank": 213
+      "score": 57.35282880693461,
+      "rank": 267
     },
     "472": {
-      "score": 79.98946728969156,
+      "score": 80.39486062265932,
       "rank": 50
     },
     "473": {
-      "score": 86.73276372527457,
-      "rank": 33
+      "score": 87.69617454154957,
+      "rank": 42
     },
     "474": {
-      "score": 69.37696242632921,
-      "rank": 101
+      "score": 69.10645729863852,
+      "rank": 117
     },
     "475": {
-      "score": 35.6395630474412,
-      "rank": 465
+      "score": 32.02443844016878,
+      "rank": 557
     },
     "476": {
-      "score": 58.273970095920184,
-      "rank": 221
+      "score": 59.25155756432389,
+      "rank": 235
     },
     "477": {
-      "score": 76.9364824285488,
-      "rank": 57
+      "score": 77.13549100676796,
+      "rank": 64
     },
     "478": {
-      "score": 51.843823901774634,
-      "rank": 303
+      "score": 51.84125690544674,
+      "rank": 332
     },
     "479": {
-      "score": 35.166209563484,
-      "rank": 475
+      "score": 35.14642469851867,
+      "rank": 519
     },
     "480": {
-      "score": 36.53018899225536,
-      "rank": 454
+      "score": 36.308820093140525,
+      "rank": 500
     },
     "481": {
-      "score": 60.28304601248526,
-      "rank": 204
+      "score": 60.602030419946956,
+      "rank": 222
     },
     "482": {
-      "score": 46.06800947244872,
-      "rank": 358
-    },
-    "483": {
-      "score": 43.31269477344689,
-      "rank": 384
-    },
-    "484": {
-      "score": 32.68365466309392,
-      "rank": 497
-    },
-    "485": {
-      "score": 48.42531942488579,
-      "rank": 333
-    },
-    "486": {
-      "score": 56.24863949443903,
-      "rank": 253
-    },
-    "488": {
-      "score": 64.5261703307367,
-      "rank": 136
-    },
-    "489": {
-      "score": 125.39729102673027,
-      "rank": 11
-    },
-    "490": {
-      "score": 48.121434691812844,
-      "rank": 337
-    },
-    "491": {
-      "score": 62.84736739249451,
-      "rank": 159
-    },
-    "492": {
-      "score": 57.83565617122318,
-      "rank": 231
-    },
-    "493": {
-      "score": 63.892969650596775,
-      "rank": 144
-    },
-    "494": {
-      "score": 39.82838719045356,
-      "rank": 426
-    },
-    "495": {
-      "score": 33.702526010404156,
-      "rank": 490
-    },
-    "496": {
-      "score": 104.18691935896473,
-      "rank": 16
-    },
-    "497": {
-      "score": 60.668315816366174,
-      "rank": 201
-    },
-    "498": {
-      "score": 60.677100478348244,
-      "rank": 200
-    },
-    "499": {
-      "score": 37.99471229541089,
-      "rank": 444
-    },
-    "500": {
-      "score": 58.701135053405025,
-      "rank": 218
-    },
-    "501": {
-      "score": 34.21489488772097,
-      "rank": 487
-    },
-    "502": {
-      "score": 35.79182844182844,
-      "rank": 461
-    },
-    "503": {
-      "score": 37.93535899555483,
-      "rank": 445
-    },
-    "504": {
-      "score": 57.5373463472388,
-      "rank": 242
-    },
-    "505": {
-      "score": 63.42884197634908,
-      "rank": 150
-    },
-    "506": {
-      "score": 42.839673821744654,
-      "rank": 387
-    },
-    "507": {
-      "score": 49.12645769339695,
-      "rank": 331
-    },
-    "508": {
-      "score": 50.220379983388696,
-      "rank": 319
-    },
-    "509": {
-      "score": 83.22030723549861,
-      "rank": 43
-    },
-    "510": {
-      "score": 66.6701861322525,
-      "rank": 123
-    },
-    "511": {
-      "score": 40.16141598336607,
-      "rank": 420
-    },
-    "512": {
-      "score": 62.431907341951145,
-      "rank": 170
-    },
-    "513": {
-      "score": 41.47094365651067,
-      "rank": 400
-    },
-    "515": {
-      "score": 41.13304921294613,
-      "rank": 404
-    },
-    "516": {
-      "score": 73.18947082234897,
-      "rank": 74
-    },
-    "517": {
-      "score": 61.349849126096885,
-      "rank": 189
-    },
-    "518": {
-      "score": 74.73388319183391,
-      "rank": 66
-    },
-    "519": {
-      "score": 64.03397893248209,
-      "rank": 141
-    },
-    "520": {
-      "score": 59.07228590858821,
-      "rank": 214
-    },
-    "521": {
-      "score": 50.22365004141191,
-      "rank": 318
-    },
-    "522": {
-      "score": 46.10625793888506,
-      "rank": 355
-    },
-    "523": {
-      "score": 54.89345470184158,
-      "rank": 271
-    },
-    "524": {
-      "score": 55.08572140332946,
-      "rank": 268
-    },
-    "525": {
-      "score": 40.89013449773502,
-      "rank": 409
-    },
-    "526": {
-      "score": 31.01581308370806,
-      "rank": 506
-    },
-    "528": {
-      "score": 48.09848376354203,
-      "rank": 339
-    },
-    "529": {
-      "score": 34.51715321834523,
-      "rank": 483
-    },
-    "530": {
-      "score": 47.394390554287476,
-      "rank": 344
-    },
-    "531": {
-      "score": 58.23237155249868,
-      "rank": 223
-    },
-    "532": {
-      "score": 77.14041917051631,
-      "rank": 55
-    },
-    "533": {
-      "score": 36.087326507453625,
-      "rank": 459
-    },
-    "534": {
-      "score": 85.15065150021786,
-      "rank": 38
-    },
-    "535": {
-      "score": 65.00339010645712,
-      "rank": 132
-    },
-    "536": {
-      "score": 29.378292493483865,
-      "rank": 513
-    },
-    "537": {
-      "score": 37.68897828362114,
-      "rank": 446
-    },
-    "538": {
-      "score": 40.41640261367705,
+      "score": 44.48705989786182,
       "rank": 416
     },
-    "539": {
-      "score": 83.16501590514748,
-      "rank": 44
+    "483": {
+      "score": 44.15697888510205,
+      "rank": 421
     },
-    "540": {
-      "score": 87.90918505375588,
-      "rank": 29
+    "484": {
+      "score": 32.69863751655406,
+      "rank": 551
     },
-    "541": {
-      "score": 71.58942384919828,
-      "rank": 84
+    "485": {
+      "score": 49.730435930486706,
+      "rank": 355
     },
-    "542": {
-      "score": 58.42695238699619,
-      "rank": 220
+    "486": {
+      "score": 58.976547955133285,
+      "rank": 239
     },
-    "543": {
-      "score": 52.17743772550474,
-      "rank": 300
+    "487": {
+      "score": 47.48838470577601,
+      "rank": 372
     },
-    "545": {
-      "score": 51.34149317412029,
-      "rank": 309
+    "488": {
+      "score": 64.71347324383473,
+      "rank": 153
     },
-    "546": {
-      "score": 55.509238256443204,
-      "rank": 264
+    "489": {
+      "score": 117.68609571053399,
+      "rank": 14
     },
-    "547": {
-      "score": 43.40972298010113,
-      "rank": 383
+    "490": {
+      "score": 50.8752972616609,
+      "rank": 344
     },
-    "548": {
-      "score": 47.78236224559754,
-      "rank": 341
+    "491": {
+      "score": 65.26314814580762,
+      "rank": 147
     },
-    "549": {
-      "score": 41.95272201110888,
-      "rank": 396
+    "492": {
+      "score": 57.686799530210145,
+      "rank": 259
     },
-    "550": {
-      "score": 60.26205172261873,
-      "rank": 205
+    "493": {
+      "score": 66.43968264297541,
+      "rank": 139
     },
-    "551": {
-      "score": 36.53018899225536,
-      "rank": 455
-    },
-    "552": {
-      "score": 29.34419267707083,
-      "rank": 514
-    },
-    "553": {
-      "score": 40.4716282648325,
-      "rank": 414
-    },
-    "554": {
-      "score": 52.787810594881435,
-      "rank": 296
-    },
-    "555": {
-      "score": 87.0480741968765,
-      "rank": 31
-    },
-    "556": {
-      "score": 62.8120322975993,
-      "rank": 160
-    },
-    "557": {
-      "score": 57.32483607177532,
-      "rank": 243
-    },
-    "558": {
-      "score": 66.3049890748646,
-      "rank": 125
-    },
-    "559": {
-      "score": 35.59126049389207,
+    "494": {
+      "score": 39.851049105957784,
       "rank": 467
     },
-    "560": {
-      "score": 62.9548861055847,
-      "rank": 155
+    "495": {
+      "score": 35.24143264143264,
+      "rank": 518
     },
-    "561": {
-      "score": 74.60287963656566,
-      "rank": 69
+    "496": {
+      "score": 107.0578799249531,
+      "rank": 19
     },
-    "563": {
-      "score": 42.54806813676015,
-      "rank": 389
+    "497": {
+      "score": 63.336030977494275,
+      "rank": 170
     },
-    "564": {
-      "score": 33.87229102673028,
-      "rank": 489
+    "498": {
+      "score": 61.19092204878279,
+      "rank": 206
     },
-    "566": {
-      "score": 67.46987162855766,
-      "rank": 115
+    "499": {
+      "score": 36.21207833124547,
+      "rank": 502
     },
-    "567": {
-      "score": 69.49655010098934,
-      "rank": 99
+    "500": {
+      "score": 55.06906588599502,
+      "rank": 296
     },
-    "568": {
-      "score": 45.957778218345226,
-      "rank": 359
+    "501": {
+      "score": 34.14205055624039,
+      "rank": 538
     },
-    "569": {
-      "score": 66.42791089574534,
-      "rank": 124
+    "502": {
+      "score": 34.91401151453675,
+      "rank": 526
     },
-    "570": {
-      "score": 135.67447511714965,
-      "rank": 8
+    "503": {
+      "score": 38.610451089036424,
+      "rank": 481
     },
-    "571": {
-      "score": 67.45891775357592,
-      "rank": 116
+    "504": {
+      "score": 57.53603097749427,
+      "rank": 263
     },
-    "572": {
-      "score": 55.46986187693271,
-      "rank": 265
+    "505": {
+      "score": 63.67575594340301,
+      "rank": 167
     },
-    "573": {
-      "score": 59.63662011869095,
-      "rank": 210
+    "506": {
+      "score": 40.713977384805496,
+      "rank": 453
     },
-    "574": {
-      "score": 46.12375756082393,
+    "507": {
+      "score": 50.252949643118264,
+      "rank": 350
+    },
+    "508": {
+      "score": 51.12785463758502,
+      "rank": 342
+    },
+    "509": {
+      "score": 90.72717890905702,
+      "rank": 37
+    },
+    "510": {
+      "score": 67.34295021422717,
+      "rank": 125
+    },
+    "511": {
+      "score": 40.660510345997565,
+      "rank": 455
+    },
+    "512": {
+      "score": 62.13365458071341,
+      "rank": 188
+    },
+    "513": {
+      "score": 40.342822636300895,
+      "rank": 461
+    },
+    "514": {
+      "score": 48.13374941035596,
+      "rank": 365
+    },
+    "515": {
+      "score": 38.13281170734587,
+      "rank": 484
+    },
+    "516": {
+      "score": 73.00696636040315,
+      "rank": 86
+    },
+    "517": {
+      "score": 61.363261864075625,
+      "rank": 202
+    },
+    "518": {
+      "score": 74.2151619863037,
+      "rank": 79
+    },
+    "519": {
+      "score": 67.14418080537484,
+      "rank": 127
+    },
+    "520": {
+      "score": 62.80886063870254,
+      "rank": 175
+    },
+    "521": {
+      "score": 52.85585496307466,
+      "rank": 315
+    },
+    "522": {
+      "score": 46.179627546556674,
+      "rank": 392
+    },
+    "523": {
+      "score": 56.336724925771954,
+      "rank": 282
+    },
+    "524": {
+      "score": 58.494337256345055,
+      "rank": 245
+    },
+    "525": {
+      "score": 42.11736147450433,
+      "rank": 433
+    },
+    "526": {
+      "score": 31.482904811027975,
+      "rank": 562
+    },
+    "527": {
+      "score": 62.584569016615994,
+      "rank": 181
+    },
+    "528": {
+      "score": 49.84377766838867,
       "rank": 354
     },
-    "575": {
-      "score": 41.42551678381633,
-      "rank": 401
+    "529": {
+      "score": 34.24269525388928,
+      "rank": 537
     },
-    "576": {
-      "score": 62.69638057925874,
-      "rank": 163
+    "530": {
+      "score": 47.25052446142226,
+      "rank": 375
     },
-    "577": {
-      "score": 68.52515891981707,
+    "531": {
+      "score": 59.626984230277,
+      "rank": 230
+    },
+    "532": {
+      "score": 80.00217391304346,
+      "rank": 51
+    },
+    "533": {
+      "score": 35.9409259235854,
+      "rank": 506
+    },
+    "534": {
+      "score": 87.91040739472783,
+      "rank": 41
+    },
+    "535": {
+      "score": 63.87118887823586,
+      "rank": 164
+    },
+    "536": {
+      "score": 30.875819464812192,
+      "rank": 566
+    },
+    "537": {
+      "score": 37.06255209018731,
+      "rank": 490
+    },
+    "538": {
+      "score": 41.88062678062678,
+      "rank": 438
+    },
+    "539": {
+      "score": 83.67509157509156,
+      "rank": 45
+    },
+    "540": {
+      "score": 94.47058860371024,
+      "rank": 27
+    },
+    "541": {
+      "score": 67.99608660303848,
+      "rank": 122
+    },
+    "542": {
+      "score": 58.37350765693011,
+      "rank": 248
+    },
+    "543": {
+      "score": 51.676931699709016,
+      "rank": 336
+    },
+    "544": {
+      "score": 41.86655886655886,
+      "rank": 439
+    },
+    "545": {
+      "score": 48.074106641035776,
+      "rank": 366
+    },
+    "546": {
+      "score": 56.47846619687681,
+      "rank": 279
+    },
+    "547": {
+      "score": 45.115242165242165,
+      "rank": 408
+    },
+    "548": {
+      "score": 47.331689448762624,
+      "rank": 374
+    },
+    "549": {
+      "score": 42.934055595870745,
+      "rank": 428
+    },
+    "550": {
+      "score": 60.378881185928165,
+      "rank": 225
+    },
+    "551": {
+      "score": 35.6811144654349,
+      "rank": 512
+    },
+    "552": {
+      "score": 29.530580946311282,
+      "rank": 569
+    },
+    "553": {
+      "score": 41.001976859119715,
+      "rank": 450
+    },
+    "554": {
+      "score": 54.146779079900725,
+      "rank": 307
+    },
+    "555": {
+      "score": 93.53296703296702,
+      "rank": 32
+    },
+    "556": {
+      "score": 60.99063958534798,
+      "rank": 211
+    },
+    "557": {
+      "score": 56.483330294132216,
+      "rank": 278
+    },
+    "558": {
+      "score": 67.24031909442489,
+      "rank": 126
+    },
+    "559": {
+      "score": 35.143467643467645,
+      "rank": 521
+    },
+    "560": {
+      "score": 61.94802411375445,
+      "rank": 193
+    },
+    "561": {
+      "score": 70.91866606217255,
+      "rank": 99
+    },
+    "562": {
+      "score": 44.1987266987267,
+      "rank": 420
+    },
+    "563": {
+      "score": 42.509723477964485,
+      "rank": 430
+    },
+    "564": {
+      "score": 33.27176004619833,
+      "rank": 547
+    },
+    "565": {
+      "score": 64.02831425253028,
+      "rank": 161
+    },
+    "566": {
+      "score": 70.31386875535811,
       "rank": 105
     },
+    "567": {
+      "score": 71.29140706584535,
+      "rank": 95
+    },
+    "568": {
+      "score": 46.771615837346175,
+      "rank": 383
+    },
+    "569": {
+      "score": 67.02073373509629,
+      "rank": 128
+    },
+    "570": {
+      "score": 128.47937569676702,
+      "rank": 12
+    },
+    "571": {
+      "score": 69.2377318448747,
+      "rank": 113
+    },
+    "572": {
+      "score": 55.377422094813404,
+      "rank": 294
+    },
+    "573": {
+      "score": 60.810014864362685,
+      "rank": 217
+    },
+    "574": {
+      "score": 46.002564257472926,
+      "rank": 396
+    },
+    "575": {
+      "score": 42.943551322136656,
+      "rank": 427
+    },
+    "576": {
+      "score": 64.33157745489761,
+      "rank": 158
+    },
+    "577": {
+      "score": 71.62105231254168,
+      "rank": 92
+    },
+    "578": {
+      "score": 67.77103804867326,
+      "rank": 124
+    },
     "579": {
-      "score": 63.80034625797338,
-      "rank": 145
+      "score": 59.36958893651807,
+      "rank": 234
     },
     "580": {
-      "score": 163.03595583160802,
+      "score": 169.14771241830067,
       "rank": 4
     }
   },
   "traitsAmountRarity": {
     "4": {
-      "count": 163,
-      "percent": 31.17
+      "count": 183,
+      "percent": 31.55
     },
     "5": {
-      "count": 227,
-      "percent": 43.4
+      "count": 255,
+      "percent": 43.97
     },
     "6": {
-      "count": 113,
-      "percent": 21.61
+      "count": 122,
+      "percent": 21.03
     },
     "7": {
       "count": 20,
-      "percent": 3.82
+      "percent": 3.45
     }
   }
 }

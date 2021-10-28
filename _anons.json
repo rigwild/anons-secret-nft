@@ -39,6 +39,19 @@
     "revealed": true
   },
   {
+    "id": 4,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Tweed",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Secret",
+    "ears": "Earpiece",
+    "mouth": "Old Pipe",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/3EI7-PQKXjmMOVeIlets0MlG022hh_f5Lns52-r71LE",
+    "revealed": true
+  },
+  {
     "id": 5,
     "backgrounds": "Green",
     "basePerson": "Orange",
@@ -299,6 +312,19 @@
     "revealed": true
   },
   {
+    "id": 25,
+    "backgrounds": "Beige",
+    "basePerson": "Orange",
+    "head": "Bowler",
+    "eyes": null,
+    "clothes": "Tactical",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/2yZL76nbO2VsR22evz9tr1UP5ZFJg5fv_9XUvSxnqqk",
+    "revealed": true
+  },
+  {
     "id": 26,
     "backgrounds": "Green",
     "basePerson": "Grey",
@@ -309,6 +335,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/8ZQZJ1iPABefNgeXnXmw3Qh7d0c6D0X27paYNsvpy4U",
+    "revealed": true
+  },
+  {
+    "id": 27,
+    "backgrounds": "Purple",
+    "basePerson": "Purple",
+    "head": "Tweed",
+    "eyes": "Camera",
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/4ImyhBUWAUTGNztcx3X5qD7U_TD2cIx2q-yr9jRRZTk",
     "revealed": true
   },
   {
@@ -455,6 +494,19 @@
     "revealed": true
   },
   {
+    "id": 39,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Bowler",
+    "eyes": null,
+    "clothes": "Overcoat",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/uQmd39cBvqCh5BU_I5ti6vm36kvA8fbYxT_4IYMt8Gc",
+    "revealed": true
+  },
+  {
     "id": 40,
     "backgrounds": "Beige",
     "basePerson": "Grey",
@@ -520,6 +572,19 @@
     "revealed": true
   },
   {
+    "id": 45,
+    "backgrounds": "Green",
+    "basePerson": "Beige",
+    "head": "Sunhat",
+    "eyes": "Black Sunglass",
+    "clothes": "Bomber",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/KwxHYnnA1fLlvI3ZNrosOHyVOqKprZqO_Tpsubm6vUk",
+    "revealed": true
+  },
+  {
     "id": 46,
     "backgrounds": "Grey",
     "basePerson": "Beige",
@@ -572,6 +637,19 @@
     "revealed": true
   },
   {
+    "id": 50,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Men 2",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/93Sk1OFeTetyW-ZLjv62PAZEXdlptAAQ04HfS62d17Q",
+    "revealed": true
+  },
+  {
     "id": 51,
     "backgrounds": "Beige",
     "basePerson": "Grey",
@@ -582,6 +660,19 @@
     "mouth": "Bandana - Secret",
     "specialNote": null,
     "imageUrl": "https://arweave.net/s-XudDjOPmCZ0AH7JkOCV4viQxDPdf7x09v74qfWO3A",
+    "revealed": true
+  },
+  {
+    "id": 52,
+    "backgrounds": "Green",
+    "basePerson": "Beige",
+    "head": "BucketHat - Bananas",
+    "eyes": null,
+    "clothes": "Hoodie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/lkssvG3MXGgcgmvVzuO763vMWgC-qBmeETpClPzVb7A",
     "revealed": true
   },
   {
@@ -676,6 +767,19 @@
     "revealed": true
   },
   {
+    "id": 60,
+    "backgrounds": "Grey",
+    "basePerson": "Orange",
+    "head": "Tweed",
+    "eyes": "Disguise",
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/GtGblTBzAsT58-JyK4pbfVkMMUnHboia7Uvxml_drro",
+    "revealed": true
+  },
+  {
     "id": 61,
     "backgrounds": "Green",
     "basePerson": "Orange",
@@ -686,6 +790,32 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/M5eEQsPAZ9bZDchrQsemt66KhDWDElkrvJUaJxcyY8Q",
+    "revealed": true
+  },
+  {
+    "id": 62,
+    "backgrounds": "Blue",
+    "basePerson": "Blue",
+    "head": "Womens 1",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/iOnv0_s2wMVCkt9Im5jv2NEAZSPnYIOw7PlSNm68Kis",
+    "revealed": true
+  },
+  {
+    "id": 63,
+    "backgrounds": "Purple",
+    "basePerson": "Beige",
+    "head": "BucketHat - Tiedye",
+    "eyes": null,
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/mJmSYkapEOlMpWL7kitixTgg2wqf5HZm4hXgmR3JPuI",
     "revealed": true
   },
   {
@@ -780,6 +910,19 @@
     "revealed": true
   },
   {
+    "id": 71,
+    "backgrounds": "Banana",
+    "basePerson": "Green",
+    "head": "Bowler",
+    "eyes": "Magnifying Glass",
+    "clothes": "Overcoat",
+    "ears": null,
+    "mouth": "Old Pipe",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/4Pfjgg-spma-IxnjS-ky422FokrReEOopDl49FHKc4g",
+    "revealed": true
+  },
+  {
     "id": 72,
     "backgrounds": "Grey",
     "basePerson": "Blue",
@@ -790,6 +933,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/nKjTb3YpxB6PwReeHSv6CAGfAuntZkRS-4QNnTCAsts",
+    "revealed": true
+  },
+  {
+    "id": 73,
+    "backgrounds": "Beige",
+    "basePerson": "Grey",
+    "head": "Helmet",
+    "eyes": null,
+    "clothes": "Bomber",
+    "ears": null,
+    "mouth": "Cigar",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/h0yQI9ANsg4LQevsRMe2VNjKEDhRMANIkgug3hnK3dc",
     "revealed": true
   },
   {
@@ -816,6 +972,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/Rncu7W6JOFl_ekxzAOOvLdM7ANK4yupvBxbUDvJ8OKE",
+    "revealed": true
+  },
+  {
+    "id": 76,
+    "backgrounds": "Grey",
+    "basePerson": "Purple",
+    "head": "Men 1",
+    "eyes": "Magnifying Glass",
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": "Bandana - Banana",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/PmdczAI0UFV1XtjzPFVpeb2CrWPFSm2Snv5R9jVcqys",
     "revealed": true
   },
   {
@@ -1027,6 +1196,19 @@
     "revealed": true
   },
   {
+    "id": 93,
+    "backgrounds": "Beige",
+    "basePerson": "Beige",
+    "head": "Men 1",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/QqtC0ohTvlJR0Q0T1Tw8Cb5CD1aCqJjLDtD9xy9XZr4",
+    "revealed": true
+  },
+  {
     "id": 94,
     "backgrounds": "Green",
     "basePerson": "Grey",
@@ -1235,6 +1417,19 @@
     "revealed": true
   },
   {
+    "id": 110,
+    "backgrounds": "Grey",
+    "basePerson": "Purple",
+    "head": "Womens 2",
+    "eyes": null,
+    "clothes": "Bomber",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/ebXcfBU7rGTHyHMRjbHnCv9AKrDAS6uj8O4C7Tl_DPo",
+    "revealed": true
+  },
+  {
     "id": 111,
     "backgrounds": "Beige",
     "basePerson": "Grey",
@@ -1430,6 +1625,19 @@
     "revealed": true
   },
   {
+    "id": 126,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Womens 2",
+    "eyes": "Gold Sunglass",
+    "clothes": "Tux",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/4pGnPxBcM-X8WwsnaMRnwdQCIemVuIEru57a-BRCq_I",
+    "revealed": true
+  },
+  {
     "id": 127,
     "backgrounds": "Beige",
     "basePerson": "Purple",
@@ -1521,6 +1729,19 @@
     "revealed": true
   },
   {
+    "id": 134,
+    "backgrounds": "Purple",
+    "basePerson": "Orange",
+    "head": "Wide Brim",
+    "eyes": null,
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": "Vape",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/tifE172LHrhaMSOyvl0HlJ1X10jsVTC90BxXPU5EhPI",
+    "revealed": true
+  },
+  {
     "id": 135,
     "backgrounds": "Grey",
     "basePerson": "Orange",
@@ -1534,6 +1755,19 @@
     "revealed": true
   },
   {
+    "id": 136,
+    "backgrounds": "Beige",
+    "basePerson": "Orange",
+    "head": "Tweed",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Bananas",
+    "ears": null,
+    "mouth": "Old Pipe",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/uEEuNafEdnoQNrC6TefKgtTfmc0mCrbHWgMDFfgkEVk",
+    "revealed": true
+  },
+  {
     "id": 137,
     "backgrounds": "Purple",
     "basePerson": "Blue",
@@ -1544,6 +1778,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/Qi7rFHJUrPoaUix1zFcsWOUMLXCjUgD_bKHl676Wf7c",
+    "revealed": true
+  },
+  {
+    "id": 138,
+    "backgrounds": "Purple",
+    "basePerson": "Purple",
+    "head": "Wide Brim",
+    "eyes": null,
+    "clothes": "Bomber",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/yauxKolreGO-IBCz2Q54xyEszHGoZ79UjYydGNVqPOE",
     "revealed": true
   },
   {
@@ -1755,6 +2002,19 @@
     "revealed": true
   },
   {
+    "id": 155,
+    "backgrounds": "Beige",
+    "basePerson": "Orange",
+    "head": "Cowboy",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Secret",
+    "ears": null,
+    "mouth": "Vape",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/nnmYaQ8jDbwbX_bcZatkeNwO5mI10V1Uv2pZB69IS64",
+    "revealed": true
+  },
+  {
     "id": 156,
     "backgrounds": "Beige",
     "basePerson": "Purple",
@@ -1765,6 +2025,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/sXm_GNZGc6sfhtwWZA89ZrynuzzZa0WaPaaINqdylgY",
+    "revealed": true
+  },
+  {
+    "id": 157,
+    "backgrounds": "Beige",
+    "basePerson": "Grey",
+    "head": "Bald",
+    "eyes": null,
+    "clothes": "Open Overcoat",
+    "ears": null,
+    "mouth": "Old Pipe",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/FG-EXFz4wQo36Qo-yRfaT0xzv_-8mBE7cdrsd5e9cDA",
     "revealed": true
   },
   {
@@ -2080,6 +2353,19 @@
     "revealed": true
   },
   {
+    "id": 182,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Womens 2",
+    "eyes": null,
+    "clothes": "Blouse",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/Bkqc_MYerXQY-YrAFSx2uy8IrB6uEEPdSPhlwXVkLqw",
+    "revealed": true
+  },
+  {
     "id": 183,
     "backgrounds": "Green",
     "basePerson": "Beige",
@@ -2119,6 +2405,19 @@
     "revealed": true
   },
   {
+    "id": 186,
+    "backgrounds": "Beige",
+    "basePerson": "Orange",
+    "head": "Bald",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/aeZkSvoF-KegTxvTTIHuJ23geC0TPWFOpckeODpogoE",
+    "revealed": true
+  },
+  {
     "id": 187,
     "backgrounds": "Purple",
     "basePerson": "Orange",
@@ -2129,6 +2428,19 @@
     "mouth": "Vape",
     "specialNote": null,
     "imageUrl": "https://arweave.net/RjnvwtUpw0afoykViojn8JLNZvv95VLBs8yr6JFiaeg",
+    "revealed": true
+  },
+  {
+    "id": 188,
+    "backgrounds": "Green",
+    "basePerson": "Grey",
+    "head": "Womens 2",
+    "eyes": "Camera",
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/4uXXd5W2lDOv9sSGKTwvG_T2nqflL8sxZSvs01zYt6Q",
     "revealed": true
   },
   {
@@ -2262,6 +2574,19 @@
     "revealed": true
   },
   {
+    "id": 199,
+    "backgrounds": "Purple",
+    "basePerson": "Beige",
+    "head": "Men 2",
+    "eyes": null,
+    "clothes": "Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/LUoMVx0ceMeUEwIVVUU_BlUGDLwJ4bZ_glEAC7T9yeQ",
+    "revealed": true
+  },
+  {
     "id": 200,
     "backgrounds": "Purple",
     "basePerson": "Purple",
@@ -2285,6 +2610,19 @@
     "mouth": "Old Pipe",
     "specialNote": null,
     "imageUrl": "https://arweave.net/zoggV7kwBbsVpoNx88CMQIuOc2mKHuSRmHJf_BGe-j4",
+    "revealed": true
+  },
+  {
+    "id": 202,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Men 2",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Secret",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/JTcZQQlLz1ggyRlGPCXKPJbyNd2Fnp03p7XvyH7S1dQ",
     "revealed": true
   },
   {
@@ -2337,6 +2675,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/5agCKzu4EubOkZqd7OYinpFeu5qN175gYYFYYXTVytU",
+    "revealed": true
+  },
+  {
+    "id": 207,
+    "backgrounds": "Beige",
+    "basePerson": "Green",
+    "head": "Tweed",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": "Earpiece w Hand",
+    "mouth": "Cigar",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/QkU9gdGOLT4A_PJQcLUpMuQQ0qWwvBD9bbTkthscONE",
     "revealed": true
   },
   {
@@ -2441,6 +2792,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/VB3_5-3oTfMLcDdgqY_-HejQrZjdLU0ToQm8mCDES0E",
+    "revealed": true
+  },
+  {
+    "id": 216,
+    "backgrounds": "Beige",
+    "basePerson": "Orange",
+    "head": "Detective",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/xLwWEKuiZjrUsXLB9fLK2qoyS4ozNuWxXe-fSaG18OY",
     "revealed": true
   },
   {
@@ -2652,6 +3016,19 @@
     "revealed": true
   },
   {
+    "id": 233,
+    "backgrounds": "Purple",
+    "basePerson": "Grey",
+    "head": "Detective",
+    "eyes": "Black Sunglass",
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/dsx_0k4tF9uzm_AgzXG13AtUYMdc52jjWgwp8PI4bOo",
+    "revealed": true
+  },
+  {
     "id": 234,
     "backgrounds": "Blue",
     "basePerson": "Beige",
@@ -2769,6 +3146,19 @@
     "revealed": true
   },
   {
+    "id": 243,
+    "backgrounds": "Grey",
+    "basePerson": "Grey",
+    "head": "Detective",
+    "eyes": "Gold Sunglass",
+    "clothes": "Tux",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/M-wRvYKejv0yP7SyOc_r5cgem3mkgJTViw7CrxI0iR0",
+    "revealed": true
+  },
+  {
     "id": 244,
     "backgrounds": "Beige",
     "basePerson": "Grey",
@@ -2779,6 +3169,19 @@
     "mouth": "Bandana - Banana",
     "specialNote": null,
     "imageUrl": "https://arweave.net/-p_-pAyZ1VLa7aGkGawnD9S_-L-PZG_3zaHUFnOtcJM",
+    "revealed": true
+  },
+  {
+    "id": 245,
+    "backgrounds": "Blue",
+    "basePerson": "Beige",
+    "head": "Balaclava",
+    "eyes": null,
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/jGXYnQIwatOAmWhrdfgOfFraYvgVTn6iy9whDZmYsws",
     "revealed": true
   },
   {
@@ -2886,6 +3289,19 @@
     "revealed": true
   },
   {
+    "id": 254,
+    "backgrounds": "Blue",
+    "basePerson": "Blue",
+    "head": "Men 1",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/TCTV5CXm72fln09DcZ9Lsa5dJWFNi1i8r3i4FUAjMaQ",
+    "revealed": true
+  },
+  {
     "id": 255,
     "backgrounds": "Beige",
     "basePerson": "Purple",
@@ -2961,6 +3377,32 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/SZhSa_LSAkdAjnVuq9imvj5J_iXY7xMqP5g5n2JAjIc",
+    "revealed": true
+  },
+  {
+    "id": 261,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Cowboy",
+    "eyes": "Camera",
+    "clothes": "Tie-Dye T-Shirt",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/sB3ofMFtDjQyErnSnQH2vENqeMwkkW75lo6SUI3Do4g",
+    "revealed": true
+  },
+  {
+    "id": 262,
+    "backgrounds": "Blue",
+    "basePerson": "Blue",
+    "head": "Men 2",
+    "eyes": "Disguise",
+    "clothes": "Overcoat",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/tJBjEEllfeDBSXImQv8Jjyr-xDf2yOj6gXMazSAJOIQ",
     "revealed": true
   },
   {
@@ -3068,6 +3510,19 @@
     "revealed": true
   },
   {
+    "id": 271,
+    "backgrounds": "Green",
+    "basePerson": "Orange",
+    "head": "Bald",
+    "eyes": "Gold Sunglass",
+    "clothes": "Open Overcoat",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/bwHEVAqkIJWtyQ9Qtpoda6WCtoN4-DYKhIT1Rc_L2GE",
+    "revealed": true
+  },
+  {
     "id": 272,
     "backgrounds": "Blue",
     "basePerson": "Beige",
@@ -3091,6 +3546,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/yBGvFnO05GYodl5iy0mKfHqheWU1MPCouGSeMAsFodU",
+    "revealed": true
+  },
+  {
+    "id": 274,
+    "backgrounds": "Blue",
+    "basePerson": "Purple",
+    "head": "Womens 1",
+    "eyes": null,
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/c5C6pPag-NKAWs7XaWK5-vcqN3_dAMOl0GV_6XhA9_Q",
     "revealed": true
   },
   {
@@ -3497,6 +3965,19 @@
     "revealed": true
   },
   {
+    "id": 306,
+    "backgrounds": "Purple",
+    "basePerson": "Grey",
+    "head": "Bald",
+    "eyes": "Camera",
+    "clothes": "Open Overcoat",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/wfVLbpGJ8AlyWMQtsKczl0SoZQ0RmZ-MSZkKW-6Kodw",
+    "revealed": true
+  },
+  {
     "id": 307,
     "backgrounds": "Green",
     "basePerson": "Beige",
@@ -3666,6 +4147,19 @@
     "revealed": true
   },
   {
+    "id": 320,
+    "backgrounds": "Green",
+    "basePerson": "Beige",
+    "head": "Womens 2",
+    "eyes": "Gold Sunglass",
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": "Bandana - Banana",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/qjMisSBwutNAbW90sQfVQ9iZAkhSsZNK23OLt1STXSQ",
+    "revealed": true
+  },
+  {
     "id": 321,
     "backgrounds": "Green",
     "basePerson": "Beige",
@@ -3679,6 +4173,19 @@
     "revealed": true
   },
   {
+    "id": 322,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "BucketHat - Tiedye",
+    "eyes": "Black Sunglass",
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/1YZSkgmpMdy9d85gN2bhBksi4jW_a3EJUaxCPsDAq5s",
+    "revealed": true
+  },
+  {
     "id": 323,
     "backgrounds": "Grey",
     "basePerson": "Purple",
@@ -3689,6 +4196,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/k0KCjKghCaJgAlkzyeuseKpYFGNW45_q82VQjWUprh8",
+    "revealed": true
+  },
+  {
+    "id": 324,
+    "backgrounds": "Grey",
+    "basePerson": "Orange",
+    "head": "Detective",
+    "eyes": null,
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/ptVza34fwMiD6RqqJFCMURN8WVyrKf6ucgg97jf6GXo",
     "revealed": true
   },
   {
@@ -3926,6 +4446,19 @@
     "revealed": true
   },
   {
+    "id": 343,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "Tweed",
+    "eyes": null,
+    "clothes": "Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/UnT5y7J5PQfH-aJEeGp0vCxGlr8u3uMrTm_zpADThVw",
+    "revealed": true
+  },
+  {
     "id": 344,
     "backgrounds": "Grey",
     "basePerson": "Blue",
@@ -4030,6 +4563,19 @@
     "revealed": true
   },
   {
+    "id": 352,
+    "backgrounds": "Grey",
+    "basePerson": "Grey",
+    "head": "Womens 2",
+    "eyes": "Black Sunglass",
+    "clothes": "Hawaiian Shirt - Secret",
+    "ears": "Earpiece",
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/H4dprobcsjOUDNfWGs-ymqkPHdSjU9liON_CbOz3AVI",
+    "revealed": true
+  },
+  {
     "id": 353,
     "backgrounds": "Grey",
     "basePerson": "Purple",
@@ -4105,6 +4651,19 @@
     "mouth": "Old Pipe",
     "specialNote": null,
     "imageUrl": "https://arweave.net/1MDTdGedHQt139TrfSis5D-3ZyQw31up2BIk_Xr2Cak",
+    "revealed": true
+  },
+  {
+    "id": 359,
+    "backgrounds": "Green",
+    "basePerson": "Orange",
+    "head": "Men 1",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Bananas",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/EpFIVnUsUW144qyhZQeuh1XlkoU_GS09EvOKcN5R4tU",
     "revealed": true
   },
   {
@@ -4381,6 +4940,19 @@
     "revealed": true
   },
   {
+    "id": 381,
+    "backgrounds": "Green",
+    "basePerson": "Orange",
+    "head": "Womens 2",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Secret",
+    "ears": null,
+    "mouth": "Old Pipe",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/iuMOMoZ7XDBgntP65WlkZnw6rHMa-wd_7CTLGQK0vHU",
+    "revealed": true
+  },
+  {
     "id": 382,
     "backgrounds": "Blue",
     "basePerson": "Grey",
@@ -4524,6 +5096,19 @@
     "revealed": true
   },
   {
+    "id": 393,
+    "backgrounds": "Grey",
+    "basePerson": "Orange",
+    "head": "Men 2",
+    "eyes": null,
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/WrKsxNi0N-fYYrphMlck-K5METOQBrq-x9e5lx249Nw",
+    "revealed": true
+  },
+  {
     "id": 394,
     "backgrounds": "Purple",
     "basePerson": "Purple",
@@ -4534,6 +5119,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/I2eWUYkS69GvvjXO6GSubLRA48A14rUOOAwGvbtkfOU",
+    "revealed": true
+  },
+  {
+    "id": 395,
+    "backgrounds": "Purple",
+    "basePerson": "Purple",
+    "head": "Tweed",
+    "eyes": "Gold Sunglass",
+    "clothes": "Tux",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/IILATtEse1gPU0wRoMbsG3w2oJw0iQXRn_euZCHqKlI",
     "revealed": true
   },
   {
@@ -4677,6 +5275,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/3SSKQKZwmvvXQ5GLmf_MPzwVoMg_dC34xxN074vIllU",
+    "revealed": true
+  },
+  {
+    "id": 407,
+    "backgrounds": "Grey",
+    "basePerson": "Orange",
+    "head": "Bowler",
+    "eyes": "Camera",
+    "clothes": "Hoodie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/hI74eHBN2t3QU2U6XNpNZjLdjY-F-qPjBxorAKVsScQ",
     "revealed": true
   },
   {
@@ -5356,6 +5967,19 @@
     "revealed": true
   },
   {
+    "id": 460,
+    "backgrounds": "Green",
+    "basePerson": "Grey",
+    "head": "Detective",
+    "eyes": null,
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": "Old Pipe",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/bCHVC5RLoIvwQu6d_zwHWNObnXIPBDqll6gH3rnrl98",
+    "revealed": true
+  },
+  {
     "id": 461,
     "backgrounds": "Purple",
     "basePerson": "Purple",
@@ -5392,6 +6016,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/wlG2QlqQUPhhSycOVz1G0zk_CVmzkTujjCtxI_6MMkA",
+    "revealed": true
+  },
+  {
+    "id": 464,
+    "backgrounds": "Blue",
+    "basePerson": "Blue",
+    "head": "Detective",
+    "eyes": "Gold Sunglass",
+    "clothes": "Tactical",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/-p5SVmB6hC2M4VB2ZWklBmIqqHEhD_Hl0taIfecLJNQ",
     "revealed": true
   },
   {
@@ -5444,6 +6081,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/otPNa8M6wZufjSHUX4-tiqUkH-Z0v8VJtPidQ8EpFh0",
+    "revealed": true
+  },
+  {
+    "id": 469,
+    "backgrounds": "Beige",
+    "basePerson": "Purple",
+    "head": "Balaclava",
+    "eyes": "Binocular",
+    "clothes": "No Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/m4ktY1UOzC7zU8vJiMpHQLPtSkl0LjfTw-IUvRbjs-8",
     "revealed": true
   },
   {
@@ -5665,6 +6315,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/yrO6rG6siDG31Yt_hkM0UIvqBr3hxpXeo_jwvgeE3eg",
+    "revealed": true
+  },
+  {
+    "id": 487,
+    "backgrounds": "Beige",
+    "basePerson": "Beige",
+    "head": "Womens 2",
+    "eyes": null,
+    "clothes": "Blouse",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/TwiwAvNKUq9nc1NBAeAkWf6rjDztwRxPgSoKUARCcI8",
     "revealed": true
   },
   {
@@ -6006,6 +6669,19 @@
     "revealed": true
   },
   {
+    "id": 514,
+    "backgrounds": "Green",
+    "basePerson": "Orange",
+    "head": "BucketHat - Bananas",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Bananas",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/3sFKOSrzQfxQ4XpUm05y95kaDHZbQXKyLCE6fU7khns",
+    "revealed": true
+  },
+  {
     "id": 515,
     "backgrounds": "Purple",
     "basePerson": "Grey",
@@ -6159,6 +6835,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/pS-30sVphp4oYyHN44xZk3eAMsOW4ppGunf1JixNm1s",
+    "revealed": true
+  },
+  {
+    "id": 527,
+    "backgrounds": "Grey",
+    "basePerson": "Purple",
+    "head": "Cowboy",
+    "eyes": null,
+    "clothes": "Tie-Dye T-Shirt",
+    "ears": null,
+    "mouth": "Vape",
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/iofVV8PkJYu8w7pTeI3xnVZQXSb02v0dmWB2exda0pk",
     "revealed": true
   },
   {
@@ -6367,6 +7056,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/mesf_hORxxy4HUrubF7hHcFCfHC8zi7rJTEVDPrUu8E",
+    "revealed": true
+  },
+  {
+    "id": 544,
+    "backgrounds": "Blue",
+    "basePerson": "Purple",
+    "head": "Womens 2",
+    "eyes": null,
+    "clothes": "Smoking Jacket",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/iOLo1D4lPUGyGhFB-Tl4slImX69RhpscxY8AqKKQKIM",
     "revealed": true
   },
   {
@@ -6591,6 +7293,19 @@
     "revealed": true
   },
   {
+    "id": 562,
+    "backgrounds": "Purple",
+    "basePerson": "Purple",
+    "head": "Womens 2",
+    "eyes": null,
+    "clothes": "Hawaiian Shirt - Secret",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/0Yaq_zHg-o1z4OIQ-5JqPXoKEH9fBUUK-tuIE16IrhY",
+    "revealed": true
+  },
+  {
     "id": 563,
     "backgrounds": "Grey",
     "basePerson": "Blue",
@@ -6614,6 +7329,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/WmXWHmJHybKd2-TIAPpP2RmVcYUhBumKGESpVQMOH2Q",
+    "revealed": true
+  },
+  {
+    "id": 565,
+    "backgrounds": "Blue",
+    "basePerson": "Blue",
+    "head": "Tweed",
+    "eyes": "Magnifying Glass",
+    "clothes": "Tie",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/9TYIyRpMOifHVXFKQk4FW0xcYuXt6j-TVBD6eqjn8-g",
     "revealed": true
   },
   {
@@ -6770,6 +7498,19 @@
     "mouth": null,
     "specialNote": null,
     "imageUrl": "https://arweave.net/UcnHR4iveMnogdN5b2xQXCujeYu83qWixSgaTRqvIQ0",
+    "revealed": true
+  },
+  {
+    "id": 578,
+    "backgrounds": "Grey",
+    "basePerson": "Blue",
+    "head": "BucketHat - Tiedye",
+    "eyes": "Camera",
+    "clothes": "Tux",
+    "ears": null,
+    "mouth": null,
+    "specialNote": null,
+    "imageUrl": "https://arweave.net/ooO_eZztieKXrpMKtTALUAj3Wxstp-XAXC5dAAjhaDc",
     "revealed": true
   },
   {
