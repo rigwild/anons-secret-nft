@@ -108,7 +108,7 @@ if (uriId()) {
   <div v-if="anons.length === 0">
     <h2 class="text-center">No anons found!</h2>
   </div>
-  <div v-else v-for="anon of anons" class="anon-card" :key="anon.id">
+  <div v-else v-for="anon of anons" class="anon-card" :key="`${anon.id}-sort-${sortBy}`">
     <img v-lazy="anon.imageUrl" :alt="`anon ${anon.id}`" />
     <div class="anon-stats">
       <h2>
@@ -229,13 +229,16 @@ body {
 .anon-card {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   background-color: #2e3844;
-  margin: 20px 0;
+  margin: 40px 0;
+  border-radius: 30px;
+  box-shadow: 0px 5px 24px 5px #00000042;
 }
 .anon-card img {
-  width: 440px;
-  height: 440px;
+  width: 500px;
+  height: 500px;
+  border-radius: 30px 0px 0px 30px;
 }
 .anon-stats {
   width: 100%;
@@ -252,11 +255,35 @@ body {
     padding: 0;
   }
   .anon-card {
+    text-align: center;
     flex-direction: column;
     margin: 50px 0;
   }
   .anon-card img {
     height: inherit;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .anon-stats {
+    padding: 5px;
+  }
+  .actions > div {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-device-width: 668px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    padding: 0;
+  }
+  .anon-card {
+    text-align: center;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .anon-card img {
+    height: inherit;
+    border-radius: 30px;
+    margin-top: 30px;
   }
   .anon-stats {
     padding: 5px;
