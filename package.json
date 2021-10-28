@@ -1,0 +1,16 @@
+{
+  "name": "anons-secret-nft",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "getScores": "node getAnonsRarity.mjs --quiet",
+    "exportScores": "node getAnonsRarity.mjs --quiet --out > _results.log",
+    "getScoresJson": "node getAnonsRarity.mjs --quiet --json"
+  },
+  "author": "rigwild <me@rigwild.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.6.13",
+    "zx": "^4.2.0"
+  }
+}
