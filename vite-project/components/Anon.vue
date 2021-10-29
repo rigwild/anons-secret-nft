@@ -118,7 +118,7 @@ const setUriHash = anonId => {
   padding: 0 15px;
 }
 
-@media (min-width: 375px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .anon-card {
     text-align: center;
     flex-direction: column;
@@ -129,7 +129,7 @@ const setUriHash = anonId => {
   }
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media only screen and (max-width: 667px) {
   .anon-card img {
     height: inherit;
     width: 100%;
@@ -137,7 +137,7 @@ const setUriHash = anonId => {
   }
 }
 
-@media (min-width: 668px) and (max-width: 1200px) {
+@media only screen and (min-width: 668px) and (max-width: 1200px) {
   .anon-card img {
     height: inherit;
     border-radius: 30px;
