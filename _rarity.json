@@ -1,438 +1,358 @@
 {
   "categories": {
     "backgrounds": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Banana": {
           "count": 10,
-          "traitPercent": 1.7241379310344827,
           "totalPercent": 1.7241379310344827,
           "score": 58
         },
         "Beige": {
           "count": 130,
-          "traitPercent": 22.413793103448278,
           "totalPercent": 22.413793103448278,
           "score": 4.461538461538462
         },
         "Blue": {
           "count": 60,
-          "traitPercent": 10.344827586206897,
           "totalPercent": 10.344827586206897,
           "score": 9.666666666666666
         },
         "Green": {
           "count": 127,
-          "traitPercent": 21.89655172413793,
           "totalPercent": 21.89655172413793,
           "score": 4.566929133858268
         },
         "Grey": {
           "count": 149,
-          "traitPercent": 25.689655172413794,
           "totalPercent": 25.689655172413794,
           "score": 3.8926174496644292
         },
         "Purple": {
           "count": 104,
-          "traitPercent": 17.93103448275862,
           "totalPercent": 17.93103448275862,
           "score": 5.576923076923077
         },
         "None": {
           "count": 0,
-          "traitPercent": 0,
           "totalPercent": 0,
           "score": null
         }
       }
     },
     "basePerson": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Beige": {
           "count": 115,
-          "traitPercent": 19.82758620689655,
           "totalPercent": 19.82758620689655,
           "score": 5.043478260869565
         },
         "Blue": {
           "count": 112,
-          "traitPercent": 19.310344827586206,
           "totalPercent": 19.310344827586206,
           "score": 5.178571428571429
         },
         "Green": {
           "count": 25,
-          "traitPercent": 4.310344827586207,
           "totalPercent": 4.310344827586207,
           "score": 23.2
         },
         "Grey": {
           "count": 115,
-          "traitPercent": 19.82758620689655,
           "totalPercent": 19.82758620689655,
           "score": 5.043478260869565
         },
         "Orange": {
           "count": 105,
-          "traitPercent": 18.103448275862068,
           "totalPercent": 18.103448275862068,
           "score": 5.523809523809524
         },
         "Purple": {
           "count": 108,
-          "traitPercent": 18.620689655172416,
           "totalPercent": 18.620689655172416,
           "score": 5.37037037037037
         },
         "None": {
           "count": 0,
-          "traitPercent": 0,
           "totalPercent": 0,
           "score": null
         }
       }
     },
     "head": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Balaclava": {
           "count": 20,
-          "traitPercent": 3.4482758620689653,
           "totalPercent": 3.4482758620689653,
           "score": 29
         },
         "Bald": {
           "count": 29,
-          "traitPercent": 5,
           "totalPercent": 5,
           "score": 20
         },
         "Beer Helmet": {
           "count": 24,
-          "traitPercent": 4.137931034482759,
           "totalPercent": 4.137931034482759,
           "score": 24.166666666666668
         },
         "Bowler": {
           "count": 47,
-          "traitPercent": 8.103448275862068,
           "totalPercent": 8.103448275862068,
           "score": 12.340425531914894
         },
         "BucketHat - Bananas": {
           "count": 30,
-          "traitPercent": 5.172413793103448,
           "totalPercent": 5.172413793103448,
           "score": 19.333333333333332
         },
         "BucketHat - Tiedye": {
           "count": 30,
-          "traitPercent": 5.172413793103448,
           "totalPercent": 5.172413793103448,
           "score": 19.333333333333332
         },
         "Cowboy": {
           "count": 45,
-          "traitPercent": 7.758620689655173,
           "totalPercent": 7.758620689655173,
           "score": 12.88888888888889
         },
         "Detective": {
           "count": 54,
-          "traitPercent": 9.310344827586208,
           "totalPercent": 9.310344827586208,
           "score": 10.74074074074074
         },
         "Helmet": {
           "count": 6,
-          "traitPercent": 1.0344827586206897,
           "totalPercent": 1.0344827586206897,
           "score": 96.66666666666667
         },
         "Men 1": {
           "count": 44,
-          "traitPercent": 7.586206896551724,
           "totalPercent": 7.586206896551724,
           "score": 13.181818181818182
         },
         "Men 2": {
           "count": 45,
-          "traitPercent": 7.758620689655173,
           "totalPercent": 7.758620689655173,
           "score": 12.88888888888889
         },
         "Sunhat": {
           "count": 25,
-          "traitPercent": 4.310344827586207,
           "totalPercent": 4.310344827586207,
           "score": 23.2
         },
         "Tall Mountie": {
           "count": 15,
-          "traitPercent": 2.586206896551724,
           "totalPercent": 2.586206896551724,
           "score": 38.666666666666664
         },
         "Tweed": {
           "count": 41,
-          "traitPercent": 7.06896551724138,
           "totalPercent": 7.06896551724138,
           "score": 14.146341463414634
         },
         "Wide Brim": {
           "count": 42,
-          "traitPercent": 7.241379310344828,
           "totalPercent": 7.241379310344828,
           "score": 13.809523809523808
         },
         "Womens 1": {
           "count": 46,
-          "traitPercent": 7.931034482758621,
           "totalPercent": 7.931034482758621,
           "score": 12.608695652173912
         },
         "Womens 2": {
           "count": 37,
-          "traitPercent": 6.379310344827586,
           "totalPercent": 6.379310344827586,
           "score": 15.675675675675675
         },
         "None": {
           "count": 0,
-          "traitPercent": 0,
           "totalPercent": 0,
           "score": null
         }
       }
     },
     "eyes": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Binocular": {
           "count": 27,
-          "traitPercent": 4.655172413793104,
           "totalPercent": 4.655172413793104,
           "score": 21.48148148148148
         },
         "Black Sunglass": {
           "count": 51,
-          "traitPercent": 8.793103448275861,
           "totalPercent": 8.793103448275861,
           "score": 11.372549019607844
         },
         "Black Sunglass and Magnifying Glass": {
           "count": 2,
-          "traitPercent": 0.3448275862068966,
           "totalPercent": 0.3448275862068966,
           "score": 290
         },
         "Camera": {
           "count": 26,
-          "traitPercent": 4.482758620689655,
           "totalPercent": 4.482758620689655,
           "score": 22.307692307692307
         },
         "Disguise": {
           "count": 28,
-          "traitPercent": 4.827586206896552,
           "totalPercent": 4.827586206896552,
           "score": 20.714285714285715
         },
         "Gas Mask": {
           "count": 10,
-          "traitPercent": 1.7241379310344827,
           "totalPercent": 1.7241379310344827,
           "score": 58
         },
         "Gold Sunglass": {
           "count": 50,
-          "traitPercent": 8.620689655172415,
           "totalPercent": 8.620689655172415,
           "score": 11.6
         },
         "Gold Sunglass and Magnifying Glass": {
           "count": 1,
-          "traitPercent": 0.1724137931034483,
           "totalPercent": 0.1724137931034483,
           "score": 580
         },
         "Magnifying Glass": {
           "count": 25,
-          "traitPercent": 4.310344827586207,
           "totalPercent": 4.310344827586207,
           "score": 23.2
         },
         "Plague Mask": {
           "count": 20,
-          "traitPercent": 3.4482758620689653,
           "totalPercent": 3.4482758620689653,
           "score": 29
         },
         "None": {
           "count": 340,
-          "traitPercent": 58.620689655172406,
           "totalPercent": 58.620689655172406,
           "score": 1.7058823529411766
         }
       }
     },
     "clothes": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Blouse": {
           "count": 26,
-          "traitPercent": 4.482758620689655,
           "totalPercent": 4.482758620689655,
           "score": 22.307692307692307
         },
         "Bomber": {
           "count": 48,
-          "traitPercent": 8.275862068965518,
           "totalPercent": 8.275862068965518,
           "score": 12.083333333333334
         },
         "Hawaiian Shirt - Bananas": {
           "count": 31,
-          "traitPercent": 5.344827586206897,
           "totalPercent": 5.344827586206897,
           "score": 18.709677419354836
         },
         "Hawaiian Shirt - Secret": {
           "count": 33,
-          "traitPercent": 5.689655172413794,
           "totalPercent": 5.689655172413794,
           "score": 17.575757575757574
         },
         "Hoodie": {
           "count": 50,
-          "traitPercent": 8.620689655172415,
           "totalPercent": 8.620689655172415,
           "score": 11.6
         },
         "No Tie": {
           "count": 45,
-          "traitPercent": 7.758620689655173,
           "totalPercent": 7.758620689655173,
           "score": 12.88888888888889
         },
         "Open Overcoat": {
           "count": 30,
-          "traitPercent": 5.172413793103448,
           "totalPercent": 5.172413793103448,
           "score": 19.333333333333332
         },
         "Overcoat": {
           "count": 67,
-          "traitPercent": 11.551724137931034,
           "totalPercent": 11.551724137931034,
           "score": 8.656716417910449
         },
         "Smoking Jacket": {
           "count": 52,
-          "traitPercent": 8.96551724137931,
           "totalPercent": 8.96551724137931,
           "score": 11.153846153846153
         },
         "Tactical": {
           "count": 89,
-          "traitPercent": 15.344827586206897,
           "totalPercent": 15.344827586206897,
           "score": 6.51685393258427
         },
         "Tie": {
           "count": 49,
-          "traitPercent": 8.448275862068966,
           "totalPercent": 8.448275862068966,
           "score": 11.83673469387755
         },
         "Tie-Dye T-Shirt": {
           "count": 26,
-          "traitPercent": 4.482758620689655,
           "totalPercent": 4.482758620689655,
           "score": 22.307692307692307
         },
         "Tux": {
           "count": 34,
-          "traitPercent": 5.862068965517241,
           "totalPercent": 5.862068965517241,
           "score": 17.058823529411764
         },
         "None": {
           "count": 0,
-          "traitPercent": 0,
           "totalPercent": 0,
           "score": null
         }
       }
     },
     "ears": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Earpiece": {
           "count": 121,
-          "traitPercent": 20.862068965517242,
           "totalPercent": 20.862068965517242,
           "score": 4.793388429752066
         },
         "Earpiece w Hand": {
           "count": 20,
-          "traitPercent": 3.4482758620689653,
           "totalPercent": 3.4482758620689653,
           "score": 29
         },
         "None": {
           "count": 439,
-          "traitPercent": 75.6896551724138,
           "totalPercent": 75.6896551724138,
           "score": 1.3211845102505695
         }
       }
     },
     "mouth": {
-      "categoryTotal": 580,
-      "categoryPercent": 100,
       "counts": {
         "Bandana - Banana": {
           "count": 23,
-          "traitPercent": 3.9655172413793105,
           "totalPercent": 3.9655172413793105,
           "score": 25.217391304347824
         },
         "Bandana - Secret": {
           "count": 24,
-          "traitPercent": 4.137931034482759,
           "totalPercent": 4.137931034482759,
           "score": 24.166666666666668
         },
         "Cigar": {
           "count": 50,
-          "traitPercent": 8.620689655172415,
           "totalPercent": 8.620689655172415,
           "score": 11.6
         },
         "Old Pipe": {
           "count": 49,
-          "traitPercent": 8.448275862068966,
           "totalPercent": 8.448275862068966,
           "score": 11.83673469387755
         },
         "Vape": {
           "count": 32,
-          "traitPercent": 5.517241379310345,
           "totalPercent": 5.517241379310345,
           "score": 18.125
         },
         "None": {
           "count": 402,
-          "traitPercent": 69.3103448275862,
           "totalPercent": 69.3103448275862,
           "score": 1.4427860696517412
         }

@@ -36,8 +36,8 @@ traitsCategories.forEach(category => traits[category].push('None'))
 if (argv.out) await fs.writeJSON('_anons.json', data, { spaces: 2 })
 
 /**
- * @typedef {{ count: number; traitPercent: number; totalPercent: number; score: number }} TraitRarity
- * @typedef {{ categoryTotal: number; categoryPercent: number; counts: { [trait: string]: TraitRarity] } }} CategoryRarity
+ * @typedef {{ count: number; totalPercent: number; score: number }} TraitRarity
+ * @typedef {{ counts: { [trait: string]: TraitRarity] } }} CategoryRarity
  * @typedef {{ anons: { [id: number]: { score: number; rank: number } }; categories: { [category: string]: CategoryRarity }; traitsAmountRarity: { [traitsCount: string]: { count: number; percent: number } } }} AnonsRarity
  */
 
@@ -46,21 +46,15 @@ const rarity = {}
 
 // Traits rarity
 rarity.categories = Object.entries(traits).reduce((acc, [category, traits]) => {
-  let categoryTotal = 0
-
   const traitsCounts = traits.reduce((tacc, trait) => {
     tacc[trait] = count(data, category, trait)
-    categoryTotal += tacc[trait]
     return tacc
   }, {})
 
   acc[category] = {
-    categoryTotal,
-    categoryPercent: percent(categoryTotal, mintedAnonsCount),
     counts: Object.entries(traitsCounts).reduce((tacc, [trait, count]) => {
       tacc[trait] = {
         count,
-        traitPercent: percent(count, categoryTotal),
         totalPercent: percent(count, mintedAnonsCount),
         score: 1 / (count / mintedAnonsCount)
       }
@@ -115,17 +109,12 @@ if (argv.json) {
 console.log(`Total Minted Anons: ${mintedAnonsCount}`)
 console.log()
 
-console.log('Categories rarity:\n')
+console.log('Traits rarity:\n')
 Object.entries(rarity.categories).forEach(([categoryName, categoryRarity]) => {
-  console.log(
-    `${categoryName} (${categoryRarity.categoryTotal} of ${mintedAnonsCount} - ${categoryRarity.categoryPercent} %):`
-  )
+  console.log(`${categoryName}`)
 
-  Object.entries(categoryRarity.counts).forEach(([trait, { count, traitPercent, totalPercent }]) =>
-    console.log(
-      `  ${pad(count)} of ${categoryRarity.categoryTotal} ` +
-        `(trait: ${percentStr(traitPercent)}, total: ${percentStr(totalPercent)}) - ${trait}`
-    )
+  Object.entries(categoryRarity.counts).forEach(([trait, { count, totalPercent }]) =>
+    console.log(`  ${pad(count)} of ${mintedAnonsCount} - ${percentStr(totalPercent)} - ${trait}`)
   )
   console.log()
 })
@@ -141,8 +130,8 @@ console.log()
 console.log()
 const logAnon = (id, score, rank) =>
   console.log(
-    `  ${pad(id, 3)}: Ranked ${pad(rank, 3)} of ${mintedAnonsCount} ` +
-      `(score: ${pad(score.toFixed(8), 12)}) - https://www.anons.army/anon/${id}`
+    `  ${pad(id, 3)}: Ranked ${pad(rank, 3)} of ${mintedAnonsCount} - ` +
+      `score ${pad(score.toFixed(8), 12)} - https://www.anons.army/anon/${id}`
   )
 console.log('Anons Rarity Score:')
 Object.entries(rarity.anons).forEach(([id, { score, rank }]) => logAnon(id, score, rank))
