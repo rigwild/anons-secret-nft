@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue'
+import AnonComponent from '../components/Anon.vue'
+
 import anonsFixed from '../../_anons.json'
 import rarity from '../../_rarity.json'
 
@@ -54,12 +56,6 @@ const sortById = () => (anons.value = anons.value.sort((a, b) => a.id - b.id))
 const sortByScore = () =>
   (anons.value = anons.value.sort((a, b) => rarity.anons[b.id].score - rarity.anons[a.id].score))
 
-const setUriHash = anonId => {
-  window.location.hash = `#?id=${anonId}`
-  const uri = window.location.href
-  navigator.clipboard.writeText(uri).then(() => alert(`URI copied to clipboard! ${uri}`))
-}
-
 // Init uri anon id
 if (uriId()) {
   filterId.value = uriId()
@@ -108,90 +104,21 @@ if (uriId()) {
   <div v-if="anons.length === 0">
     <h2 class="text-center">No anons found!</h2>
   </div>
-  <div v-else v-for="anon of anons" class="anon-card" :key="`${anon.id}-sort-${sortBy}`">
-    <img v-lazy="anon.imageUrl" :alt="`anon ${anon.id}`" />
-    <div class="anon-stats">
-      <h2>
-        Anon #{{ anon.id }} (Rank {{ rarity.anons[anon.id].rank }} / {{ anonsFixed.length }})
-        <span @click="setUriHash(anon.id)" class="pointer">🔗</span>
-      </h2>
-      <h4>Traits</h4>
-      <table>
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Trait</th>
-            <th>Trait Count</th>
-            <th>Trait %</th>
-            <th>Total %</th>
-            <th>Score</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-if="anon.backgrounds">
-            <td>backgrounds</td>
-            <td>{{ anon.backgrounds }}</td>
-            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.backgrounds.counts[anon.backgrounds].score.toFixed(3) }}</td>
-          </tr>
-          <tr v-if="anon.basePerson">
-            <td>basePerson</td>
-            <td>{{ anon.basePerson }}</td>
-            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.basePerson.counts[anon.basePerson].score.toFixed(3) }}</td>
-          </tr>
-          <tr v-if="anon.head">
-            <td>head</td>
-            <td>{{ anon.head }}</td>
-            <td>{{ rarity.categories.head.counts[anon.head].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.head.counts[anon.head].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.head.counts[anon.head].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.head.counts[anon.head].score.toFixed(3) }}</td>
-          </tr>
-          <tr v-if="anon.eyes">
-            <td>eyes</td>
-            <td>{{ anon.eyes }}</td>
-            <td>{{ rarity.categories.eyes.counts[anon.eyes].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.eyes.counts[anon.eyes].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.eyes.counts[anon.eyes].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.eyes.counts[anon.eyes].score.toFixed(3) }}</td>
-          </tr>
-          <tr v-if="anon.clothes">
-            <td>clothes</td>
-            <td>{{ anon.clothes }}</td>
-            <td>{{ rarity.categories.clothes.counts[anon.clothes].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.clothes.counts[anon.clothes].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.clothes.counts[anon.clothes].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.clothes.counts[anon.clothes].score.toFixed(3) }}</td>
-          </tr>
-          <tr v-if="anon.ears">
-            <td>ears</td>
-            <td>{{ anon.ears }}</td>
-            <td>{{ rarity.categories.ears.counts[anon.ears].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.ears.counts[anon.ears].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.ears.counts[anon.ears].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.ears.counts[anon.ears].score.toFixed(3) }}</td>
-          </tr>
-          <tr v-if="anon.mouth">
-            <td>mouth</td>
-            <td>{{ anon.mouth }}</td>
-            <td>{{ rarity.categories.mouth.counts[anon.mouth].count }} / {{ anonsFixed.length }}</td>
-            <td>{{ rarity.categories.mouth.counts[anon.mouth].traitPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.mouth.counts[anon.mouth].totalPercent.toFixed(3) }}</td>
-            <td>{{ rarity.categories.mouth.counts[anon.mouth].score.toFixed(3) }}</td>
-          </tr>
-        </tbody>
-      </table>
-      <h3>
-        Total Rarity Score: {{ rarity.anons[anon.id].score.toFixed(3) }} -
-        <a :href="`https://www.anons.army/anon/${anon.id}`" target="_blank" rel="noopener">See on anons.army</a>
-      </h3>
-    </div>
-  </div>
+  <AnonComponent
+    v-else
+    v-for="anon of anons"
+    :anon="anon"
+    :totalAnonsCount="anonsFixed.length"
+    :rarityAnon="rarity.anons[anon.id]"
+    :rarityCategoriesBackgroundsCountsAnon="rarity.categories.backgrounds.counts[anon.backgrounds]"
+    :rarityCategoriesBasePersonCountsAnon="rarity.categories.basePerson.counts[anon.basePerson]"
+    :rarityCategoriesHeadCountsAnon="rarity.categories.head.counts[anon.head]"
+    :rarityCategoriesEyesCountsAnon="rarity.categories.eyes.counts[anon.eyes]"
+    :rarityCategoriesClothesCountsAnon="rarity.categories.clothes.counts[anon.clothes]"
+    :rarityCategoriesEarsCountsAnon="rarity.categories.ears.counts[anon.ears]"
+    :rarityCategoriesMouthCountsAnon="rarity.categories.mouth.counts[anon.mouth]"
+  />
+  <!-- :key="`${anon.id}-sort-${sortBy}` -->
 
   <div class="credits">
     <div><a href="https://github.com/rigwild/anons-secret-nft">Available on GitHub</a></div>
@@ -201,10 +128,13 @@ if (uriId()) {
 
 <style>
 body {
-  max-width: 1350px;
+  max-width: 1260px;
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .pointer {
   cursor: pointer;
@@ -226,68 +156,13 @@ body {
 .actions > div > div {
   margin: 15px;
 }
-.anon-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #2e3844;
-  margin: 40px 0;
-  border-radius: 30px;
-  box-shadow: 0px 5px 24px 5px #00000042;
-}
-.anon-card img {
-  width: 500px;
-  height: 500px;
-  border-radius: 30px 0px 0px 30px;
-}
-.anon-stats {
-  width: 100%;
-  padding: 0 15px;
-}
+
 .credits {
   text-align: center;
   margin: 15px;
 }
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    padding: 0;
-  }
-  .anon-card {
-    text-align: center;
-    flex-direction: column;
-    margin: 50px 0;
-  }
-  .anon-card img {
-    height: inherit;
-    border-radius: 30px 30px 0px 0px;
-  }
-  .anon-stats {
-    padding: 5px;
-  }
-  .actions > div {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (min-device-width: 668px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    padding: 0;
-  }
-  .anon-card {
-    text-align: center;
-    flex-direction: column;
-    margin: 50px 0;
-  }
-  .anon-card img {
-    height: inherit;
-    border-radius: 30px;
-    margin-top: 30px;
-  }
-  .anon-stats {
-    padding: 5px;
-  }
+@media (max-width: 1200px) {
   .actions > div {
     flex-direction: column;
   }
