@@ -6,15 +6,12 @@
     "getScores": "node getAnonsRarity.mjs --quiet",
     "exportScores": "node getAnonsRarity.mjs --quiet --out > _results.log",
     "getScoresJson": "node getAnonsRarity.mjs --quiet --json",
-    "build": "pnpm exportScores && cd vite-project && pnpm build && echo 'anons.rigwild.dev' > ./dist/CNAME",
-    "dev": "cd vite-project && pnpm dev",
-    "publish": "pnpm build && gh-pages -d vite-project/dist"
+    "build": "pnpm exportScores && cd vite-project && pnpm build",
+    "dev": "cd vite-project && pnpm dev"
   },
   "author": "rigwild <me@rigwild.dev>",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "vite": "^2.6.13",
     "zx": "^4.2.0"
   }
 }
