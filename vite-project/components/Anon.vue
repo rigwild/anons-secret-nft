@@ -21,7 +21,9 @@ const setUriHash = anonId => {
 
 <template>
   <div class="anon-card">
-    <img :src="`/anons-images/anon-${anon.id}.webp`" :alt="`anon ${anon.id}`" :key="anon.id" />
+    <div class="anon-img-container">
+      <img :src="`/anons-images/anon-${anon.id}.webp`" :alt="`anon ${anon.id}`" :key="anon.id" />
+    </div>
     <div class="anon-stats">
       <h2>
         Anon #{{ anon.id }} (Rank {{ rarityAnon.rank }} / {{ totalAnonsCount }})
@@ -109,11 +111,20 @@ const setUriHash = anonId => {
   border-radius: 30px;
   box-shadow: 0px 5px 24px 5px #00000042;
 }
-.anon-card img {
+.anon-card > .anon-img-container {
   width: 500px;
   height: 500px;
+  flex-basis: 500px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.anon-img-container img {
+  width: 100%;
+  height: 100%;
   border-radius: 30px 0px 0px 30px;
 }
+
 .anon-stats {
   width: 100%;
   padding: 0 15px;
@@ -125,6 +136,13 @@ const setUriHash = anonId => {
     flex-direction: column;
     margin: 50px 0;
     height: 1020px;
+  }
+  .anon-card > .anon-img-container {
+    width: 100%;
+    height: 100%;
+    flex-basis: initial;
+    flex-grow: initial;
+    flex-shrink: initial;
   }
   .anon-stats {
     padding: 5px 0;
@@ -140,8 +158,16 @@ const setUriHash = anonId => {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1280px) {
+  .anon-card > .anon-img-container {
+    width: initial;
+    height: initial;
+    flex-basis: initial;
+    flex-grow: initial;
+    flex-shrink: initial;
+  }
   .anon-card img {
-    height: inherit;
+    height: 500px;
+    width: 500px;
     border-radius: 30px;
     margin-top: 30px;
   }
