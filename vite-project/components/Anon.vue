@@ -21,7 +21,7 @@ const setUriHash = anonId => {
 
 <template>
   <div class="anon-card">
-    <img v-lazy="anon.imageUrl" :alt="`anon ${anon.id}`" :key="anon.id" />
+    <img :src="`/anons-images/anon-${anon.id}.webp`" :alt="`anon ${anon.id}`" :key="anon.id" />
     <div class="anon-stats">
       <h2>
         Anon #{{ anon.id }} (Rank {{ rarityAnon.rank }} / {{ totalAnonsCount }})
@@ -100,11 +100,12 @@ const setUriHash = anonId => {
 
 <style scoped>
 .anon-card {
+  max-width: 1200px;
+  margin: 40px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #2e3844;
-  margin: 40px 0;
   border-radius: 30px;
   box-shadow: 0px 5px 24px 5px #00000042;
 }
@@ -118,26 +119,27 @@ const setUriHash = anonId => {
   padding: 0 15px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
   .anon-card {
     text-align: center;
     flex-direction: column;
     margin: 50px 0;
+    height: 1020px;
   }
   .anon-stats {
-    padding: 5px;
+    padding: 5px 0;
   }
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 640px) {
   .anon-card img {
     height: inherit;
-    width: 100%;
+    width: auto;
     border-radius: 30px 30px 0px 0px;
   }
 }
 
-@media only screen and (min-width: 668px) and (max-width: 1200px) {
+@media only screen and (min-width: 640px) and (max-width: 1280px) {
   .anon-card img {
     height: inherit;
     border-radius: 30px;
