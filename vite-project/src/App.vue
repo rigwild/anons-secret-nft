@@ -1,12 +1,22 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed, nextTick } from 'vue'
+import { useBreakpoints } from '@vueuse/core'
+import { UseVirtualList } from '@vueuse/components'
+
 import AnonComponent from '../components/Anon.vue'
 
 import anonsFixed from '../../_anons.json'
 import rarity from '../../_rarity.json'
 
-console.log('anons', anonsFixed)
-console.log('rarity', rarity)
+console.log('Use `anons()` to show data')
+window.anons = () => {
+  console.log('anons', anonsFixed)
+  console.log('rarity', rarity)
+}
+
+const breakpoints = useBreakpoints({ laptop: 1024 })
+
+const anonCardSize = () => (breakpoints.isGreater('laptop') ? 500 : 1020)
 
 const uriId = () => {
   const matches = window.location.hash.match(/id=(\d+)/)
@@ -17,6 +27,9 @@ let anons = ref(anonsFixed)
 let filterId = ref(uriId())
 let filterTrait = ref('')
 let sortBy = ref('id')
+let stateKey = computed(
+  () => `${sortBy.value}-${filterId.value || '_'}-${filterTrait.value || '_'}-${anons.value.length}`
+)
 
 const filterAnonsById = () => {
   filterTrait.value = ''
@@ -24,8 +37,12 @@ const filterAnonsById = () => {
     anons.value = anonsFixed
     sortAnons()
   } else {
+    anons.value = []
     const results = anonsFixed.find(x => filterId.value === `${x.id}`)
-    anons.value = results ? [results] : []
+    nextTick(() => {
+      anons.value = results ? [results] : []
+      console.log(filterId.value, anons.value)
+    })
   }
 }
 const filterAnonsByTrait = () => {
@@ -104,31 +121,31 @@ if (uriId()) {
   <div v-if="anons.length === 0">
     <h2 class="text-center">No anons found!</h2>
   </div>
-  <AnonComponent
-    v-else
-    v-for="anon of anons"
-    :anon="anon"
-    :totalAnonsCount="anonsFixed.length"
-    :rarityAnon="rarity.anons[anon.id]"
-    :rarityCategoriesBackgroundsCountsAnon="rarity.categories.backgrounds.counts[anon.backgrounds]"
-    :rarityCategoriesBasePersonCountsAnon="rarity.categories.basePerson.counts[anon.basePerson]"
-    :rarityCategoriesHeadCountsAnon="rarity.categories.head.counts[anon.head]"
-    :rarityCategoriesEyesCountsAnon="rarity.categories.eyes.counts[anon.eyes]"
-    :rarityCategoriesClothesCountsAnon="rarity.categories.clothes.counts[anon.clothes]"
-    :rarityCategoriesEarsCountsAnon="rarity.categories.ears.counts[anon.ears]"
-    :rarityCategoriesMouthCountsAnon="rarity.categories.mouth.counts[anon.mouth]"
-  />
-  <!-- :key="`${anon.id}-sort-${sortBy}` -->
 
-  <div class="credits">
-    <div><a href="https://github.com/rigwild/anons-secret-nft">Available on GitHub</a></div>
-    <div>Made with ❤ by <a href="https://github.com/rigwild">rigwild</a></div>
+  <div v-else :key="stateKey">
+    <UseVirtualList :list="anons" :options="{ itemHeight: anonCardSize, overscan: 2 }" height="94vh">
+      <template #="{ data: anon }">
+        <AnonComponent
+          :anon="anon"
+          :totalAnonsCount="anonsFixed.length"
+          :rarityAnon="rarity.anons[anon.id]"
+          :rarityCategoriesBackgroundsCountsAnon="rarity.categories.backgrounds.counts[anon.backgrounds]"
+          :rarityCategoriesBasePersonCountsAnon="rarity.categories.basePerson.counts[anon.basePerson]"
+          :rarityCategoriesHeadCountsAnon="rarity.categories.head.counts[anon.head]"
+          :rarityCategoriesEyesCountsAnon="rarity.categories.eyes.counts[anon.eyes]"
+          :rarityCategoriesClothesCountsAnon="rarity.categories.clothes.counts[anon.clothes]"
+          :rarityCategoriesEarsCountsAnon="rarity.categories.ears.counts[anon.ears]"
+          :rarityCategoriesMouthCountsAnon="rarity.categories.mouth.counts[anon.mouth]"
+        />
+      </template>
+    </UseVirtualList>
   </div>
 </template>
 
 <style>
 body {
   max-width: 1260px;
+  margin: 0 auto;
 }
 .text-center {
   text-align: center;
@@ -162,7 +179,7 @@ body {
   margin: 15px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .actions > div {
     flex-direction: column;
   }

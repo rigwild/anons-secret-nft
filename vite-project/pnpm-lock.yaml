@@ -2,17 +2,19 @@ lockfileVersion: 5.3
 
 specifiers:
   '@vitejs/plugin-vue': ^1.9.3
+  '@vueuse/components': ^6.7.4
+  '@vueuse/core': ^6.7.4
   vite: ^2.6.4
   vue: ^3.2.16
-  vue3-lazyload: ^0.2.2-beta
 
 dependencies:
+  '@vueuse/components': 6.7.4_vue@3.2.20
+  '@vueuse/core': 6.7.4_vue@3.2.20
   vue: 3.2.20
 
 devDependencies:
   '@vitejs/plugin-vue': 1.9.4_vite@2.6.13
   vite: 2.6.13
-  vue3-lazyload: 0.2.2-beta_vue@3.2.20
 
 packages:
 
@@ -112,6 +114,48 @@ packages:
 
   /@vue/shared/3.2.20:
     resolution: {integrity: sha512-FbpX+hD5BvXCQerEYO7jtAGHlhAkhTQ4KIV73kmLWNlawWhTiVuQxizgVb0BOkX5oG9cIRZ42EG++d/k/Efp0w==}
+    dev: false
+
+  /@vueuse/components/6.7.4_vue@3.2.20:
+    resolution: {integrity: sha512-KFpmkOwq0Hc/S22Fq1Q/XBonOv51rnMwD40aCP/00K/f17Lof5qLFese/nzNna7O571uU/n0C9yP5C1QnDUCbQ==}
+    dependencies:
+      '@vueuse/core': 6.7.4_vue@3.2.20
+      '@vueuse/shared': 6.7.4_vue@3.2.20
+      vue-demi: 0.12.0_vue@3.2.20
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
+  /@vueuse/core/6.7.4_vue@3.2.20:
+    resolution: {integrity: sha512-y39SD+pxDkv7/Fe369c02FQpr/148otQr64ScPDTpw4fGnspc8ONXCNU3gTrvDFRuiylirdPBpXgmt/GDQO7RA==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      '@vueuse/shared': 6.7.4_vue@3.2.20
+      vue: 3.2.20
+      vue-demi: 0.12.0_vue@3.2.20
+    dev: false
+
+  /@vueuse/shared/6.7.4_vue@3.2.20:
+    resolution: {integrity: sha512-Lkm8myEiOj0sIqSXck5EXDbu0W705Q10BxydGLMfiV6wAY4U1zu+YgEgR37Wy2/mT1545pwQqiJ7bd3kQQFCMw==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue: 3.2.20
+      vue-demi: 0.12.0_vue@3.2.20
     dev: false
 
   /csstype/2.6.18:
@@ -385,6 +429,21 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /vue-demi/0.12.0_vue@3.2.20:
+    resolution: {integrity: sha512-eggsbQSQEJKlvQrtrJLx4J44MIVq5+Z7QetIEh1Na+ZWLgt5Fq0qskQ1QmckTTEoFcUdn36c4K23EjtXZhws7w==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.2.20
+    dev: false
+
   /vue/3.2.20:
     resolution: {integrity: sha512-81JjEP4OGk9oO8+CU0h2nFPGgJBm9mNa3kdCX2k6FuRdrWrC+CNe+tOnuIeTg8EWwQuI+wwdra5Q7vSzp7p4Iw==}
     dependencies:
@@ -394,12 +453,3 @@ packages:
       '@vue/server-renderer': 3.2.20_vue@3.2.20
       '@vue/shared': 3.2.20
     dev: false
-
-  /vue3-lazyload/0.2.2-beta_vue@3.2.20:
-    resolution: {integrity: sha512-k198DjJmH8vmtPm90nzs/04MwMGpqmbhrp9foonWyPDCviQtCATYxlvloxRXroElcDRERZCs/+GRjeDVWsPtNw==}
-    peerDependencies:
-      '@vue/compiler-sfc': '>=3.0.0'
-      vue: '>=3.0.0'
-    dependencies:
-      vue: 3.2.20
-    dev: true
