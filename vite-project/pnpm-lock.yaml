@@ -4,13 +4,17 @@ specifiers:
   '@vitejs/plugin-vue': ^1.9.3
   '@vueuse/components': ^6.7.4
   '@vueuse/core': ^6.7.4
+  '@vueuse/router': ^6.8.0
   vite: ^2.6.4
   vue: ^3.2.16
+  vue-router: '4'
 
 dependencies:
   '@vueuse/components': 6.7.4_vue@3.2.20
   '@vueuse/core': 6.7.4_vue@3.2.20
+  '@vueuse/router': 6.8.0_vue-router@4.0.12+vue@3.2.20
   vue: 3.2.20
+  vue-router: 4.0.12_vue@3.2.20
 
 devDependencies:
   '@vitejs/plugin-vue': 1.9.4_vite@2.6.13
@@ -69,6 +73,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.20
       '@vue/shared': 3.2.20
+    dev: false
+
+  /@vue/devtools-api/6.0.0-beta.20.1:
+    resolution: {integrity: sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==}
     dev: false
 
   /@vue/reactivity/3.2.20:
@@ -143,8 +151,36 @@ packages:
       vue-demi: 0.12.0_vue@3.2.20
     dev: false
 
+  /@vueuse/router/6.8.0_vue-router@4.0.12+vue@3.2.20:
+    resolution: {integrity: sha512-OtxwLuL4H+LE81nbs7vT8UTvLBcODryBoheL+Yc9tJ+vOgpsllCE6dGTXNSTNNrmTkRRlE3IrzFhZlnH6DcmcQ==}
+    peerDependencies:
+      vue-router: '>=4.0.0-rc.1'
+    dependencies:
+      '@vueuse/shared': 6.8.0_vue@3.2.20
+      vue-demi: 0.12.0_vue@3.2.20
+      vue-router: 4.0.12_vue@3.2.20
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
   /@vueuse/shared/6.7.4_vue@3.2.20:
     resolution: {integrity: sha512-Lkm8myEiOj0sIqSXck5EXDbu0W705Q10BxydGLMfiV6wAY4U1zu+YgEgR37Wy2/mT1545pwQqiJ7bd3kQQFCMw==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue: 3.2.20
+      vue-demi: 0.12.0_vue@3.2.20
+    dev: false
+
+  /@vueuse/shared/6.8.0_vue@3.2.20:
+    resolution: {integrity: sha512-+YjehQ8Qe4Qgyq8iTToVOzp4sZBAZvScv3AGJSMi6HYbe54+nyjrRfS8DN4fA0eUahyftHKZ00WKgMe7TS5N0w==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -441,6 +477,15 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
+      vue: 3.2.20
+    dev: false
+
+  /vue-router/4.0.12_vue@3.2.20:
+    resolution: {integrity: sha512-CPXvfqe+mZLB1kBWssssTiWg4EQERyqJZes7USiqfW9B5N2x+nHlnsM1D3b5CaJ6qgCvMmYJnz+G0iWjNCvXrg==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      '@vue/devtools-api': 6.0.0-beta.20.1
       vue: 3.2.20
     dev: false
 
