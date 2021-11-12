@@ -13,9 +13,9 @@ defineProps({
 })
 
 const setUriHash = anonId => {
-  window.location.hash = `#?id=${anonId}`
-  const uri = window.location.href
-  navigator.clipboard.writeText(uri).then(() => alert(`URI copied to clipboard! ${uri}`))
+  const path = `/#/anon/${anonId}`
+  const fullUri = `${window.location.origin}${path}`
+  navigator.clipboard.writeText(fullUri).then(() => alert(`Link copied to clipboard! ${fullUri}`))
 }
 </script>
 

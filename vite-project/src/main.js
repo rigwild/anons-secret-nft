@@ -12,6 +12,7 @@ const router = createRouter({
       component: Home,
       props: route => ({ sortBy: route.query.sortBy || 'id', filterTrait: route.query.filterTrait || '' })
     },
+    { path: '/anon/:anonId', component: AnonSolo, props: true }
   ]
 })
 
