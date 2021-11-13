@@ -8,6 +8,7 @@
   <div class="actions">
     <router-link to="/?sortBy=id"><button>Show Anons by ID</button></router-link>
     <router-link to="/?sortBy=score"><button>Show Anons by Score</button></router-link>
+    <router-link to="/exhibited"><button>Show Exhibited Anons</button></router-link>
   </div>
 
   <router-view></router-view>

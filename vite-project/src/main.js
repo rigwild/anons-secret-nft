@@ -1,18 +1,20 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import Home from './Home.vue'
 import AnonSolo from './AnonSolo.vue'
+import Exhibited from './Exhibited.vue'
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
       component: Home,
       props: route => ({ sortBy: route.query.sortBy || 'id', filterTrait: route.query.filterTrait || '' })
     },
-    { path: '/anon/:anonId', component: AnonSolo, props: true }
+    { path: '/anon/:anonId', component: AnonSolo, props: true },
+    { path: '/exhibited', component: Exhibited }
   ]
 })
 
