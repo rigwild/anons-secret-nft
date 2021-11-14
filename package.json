@@ -1,17 +1,20 @@
 {
   "name": "anons-secret-nft",
   "private": true,
+  "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "getScores": "node getAnonsRarity.mjs --quiet",
-    "exportScores": "node getAnonsRarity.mjs --quiet --out > _results.log",
-    "getScoresJson": "node getAnonsRarity.mjs --quiet --json",
-    "build": "pnpm exportScores && cd vite-project && pnpm build",
-    "dev": "cd vite-project && pnpm dev"
+    "getScores": "node dist/getAnonsRarity.mjs",
+    "exportScores": "node dist/getAnonsRarity.mjs --quiet --out > _output_results.log",
+    "getScoresJson": "node dist/getAnonsRarity.mjs --quiet --json",
+    "build": "tsc",
+    "website:dev": "cd vite-project && pnpm dev",
+    "website:build": "pnpm build && pnpm exportScores && cd vite-project && pnpm build"
   },
   "author": "rigwild <me@rigwild.dev>",
   "license": "MIT",
   "devDependencies": {
+    "typescript": "^4.5.0-beta",
     "zx": "^4.2.0"
   }
 }

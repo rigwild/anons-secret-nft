@@ -1,8 +1,8 @@
 <script setup>
 import AnonComponent from '../components/Anon.vue'
 
-import anonsFixed from '../../_anons.json'
-import rarity from '../../_rarity.json'
+import anonsFixed from '../../_output_anonsNullTraitsAsNone.json'
+import rarity from '../../_output_rarity.json'
 
 const worldExpoAnons = [
   4, 38, 60, 71, 73, 99, 111, 121, 147, 157, 195, 196, 228, 248, 258, 263, 267, 345, 356, 364, 397, 453, 473, 505, 523,
@@ -22,13 +22,13 @@ const anons = worldExpoAnons.map(x => anonsFixed.find(y => y.id === x))
       :anon="anon"
       :totalAnonsCount="anonsFixed.length"
       :rarityAnon="rarity.anons[anon.id]"
-      :rarityCategoriesBackgroundsCountsAnon="rarity.categories.backgrounds.counts[anon.backgrounds]"
-      :rarityCategoriesBasePersonCountsAnon="rarity.categories.basePerson.counts[anon.basePerson]"
-      :rarityCategoriesHeadCountsAnon="rarity.categories.head.counts[anon.head]"
-      :rarityCategoriesEyesCountsAnon="rarity.categories.eyes.counts[anon.eyes]"
-      :rarityCategoriesClothesCountsAnon="rarity.categories.clothes.counts[anon.clothes]"
-      :rarityCategoriesEarsCountsAnon="rarity.categories.ears.counts[anon.ears]"
-      :rarityCategoriesMouthCountsAnon="rarity.categories.mouth.counts[anon.mouth]"
+      :rarityCategoriesBackgroundsCountsAnon="rarity.categories.backgrounds[anon.backgrounds]"
+      :rarityCategoriesBasePersonCountsAnon="rarity.categories.basePerson[anon.basePerson]"
+      :rarityCategoriesHeadCountsAnon="rarity.categories.head[anon.head]"
+      :rarityCategoriesEyesCountsAnon="rarity.categories.eyes[anon.eyes]"
+      :rarityCategoriesClothesCountsAnon="rarity.categories.clothes[anon.clothes]"
+      :rarityCategoriesEarsCountsAnon="rarity.categories.ears[anon.ears]"
+      :rarityCategoriesMouthCountsAnon="rarity.categories.mouth[anon.mouth]"
     />
   </template>
 </template>

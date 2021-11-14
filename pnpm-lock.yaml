@@ -1,9 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
+  typescript: ^4.5.0-beta
   zx: ^4.2.0
 
 devDependencies:
+  typescript: 4.5.0-beta
   zx: 4.2.0
 
 packages:
@@ -351,6 +353,12 @@ packages:
 
   /tr46/0.0.3:
     resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    dev: true
+
+  /typescript/4.5.0-beta:
+    resolution: {integrity: sha512-7PvWhki2lwukaR9osVhFnNzxaE4LM+gC94dlwcvS+Tqz8+U65va7FbKo02bT+/MFlnMPM8bsPUXvHiMD/Mg3Jg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /universalify/2.0.0:
