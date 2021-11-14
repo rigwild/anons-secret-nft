@@ -105,11 +105,29 @@ Object.entries(rarity.traitsAmountRarity).forEach(
 )
 // console.dir(rarity, { depth: null })
 
+// Merge
+const anonsWithRarity: AnonWithRarity[] = anons.map(anon => {
+  const res: AnonWithRarity = { ...anon } as any
+  res.rarity = {
+    ...rarity.anons[anon.id],
+    traits: {
+      backgrounds: { ...rarity.categories.backgrounds[anon.backgrounds], name: anon.backgrounds },
+      basePerson: { ...rarity.categories.basePerson[anon.basePerson], name: anon.basePerson },
+      head: { ...rarity.categories.head[anon.head], name: anon.head },
+      eyes: { ...rarity.categories.eyes[anon.eyes], name: anon.eyes },
+      clothes: { ...rarity.categories.clothes[anon.clothes], name: anon.clothes },
+      ears: { ...rarity.categories.ears[anon.ears], name: anon.ears },
+      mouth: { ...rarity.categories.mouth[anon.mouth], name: anon.mouth }
+    }
+  }
+  return res
+})
 
 // Save as files
 if (argv.out) {
   await fs.writeJSON('_output_anonsNullTraitsAsNone.json', anons, { spaces: 2 })
   await fs.writeJSON('_output_rarity.json', rarity, { spaces: 2 })
+  await fs.writeJSON('_output_anonsWithRarity.json', anonsWithRarity, { spaces: 2 })
 }
 
 // Log JSON

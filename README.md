@@ -14,8 +14,7 @@ Any non-traits is treated like it was the trait "None". It counts in scores.
 - JSON:
   - [`_output_anonsNullTraitsAsNone.json`](./_output_anonsNullTraitsAsNone.json): Anons with `null` traits set to `None`
   - [`_output_rarity.json`](./_output_rarity.json): Rarity scores
-- Human-readable version: [`_results.log`](./_results.log)
-- JSON: [`_rarity.json`](./_rarity.json), [`_anons.json`](./_anons.json)
+  - [`_output_anonsWithRarity.json`](./_output_anonsWithRarity.json): Anons with its rarity
 
 ## Reproduce calculations
 
@@ -26,6 +25,8 @@ pnpm install
 pnpm build
 pnpm exportScores
 ```
+
+If the generated [`_output_anonsWithRarity.json`](./_output_anonsWithRarity.json) file has not changed, you are sure I did not cheat by manually editing it!
 
 SHA256 hashes:
 
@@ -40,6 +41,7 @@ e83356417c1903fa45db6e5f480eaad926a82d5b34b093f50b62e3e8841ed259  _input_traits_
 c80bf523563dfe65b18ec8bc5163104460e98eded12d6b5a4a934a851574ce1c  _input_traits_heads.json
 feea28bb4740f8f3c116741721abd7f9f272db16eb0ee3b21fb62739afca52d6  _input_traits_mouths.json
 52d354e191e61aacda387d1297a85cab3542dbbcb6cc48fd7412e69cb1ff6d78  _output_anonsNullTraitsAsNone.json
+43a0f2d0cf25fa926ae4cb1516a13fa512a4c133e24fafe172afa4a67af6f101  _output_anonsWithRarity.json
 c1dca3b87cb0f3d3f2a734c07bdfb821e8acb047346dad524bf24d66345e22fa  _output_rarity.json
 0b60d8731387099c59c9a87f0491eff3d216ad7035c60cdf7c4680be33d4aa32  _output_results.log
 ```
