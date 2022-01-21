@@ -142,7 +142,7 @@ if (filterTrait.value) filterAnonsByTrait()
   </div>
 
   <div v-else :key="stateKey">
-    <UseVirtualList :list="anons" :options="{ itemHeight: anonCardSize, overscan: 2 }" height="94vh">
+    <UseVirtualList :list="anons" :options="{ itemHeight: anonCardSize, overscan: 2 }" height="100%" style="overflow-y: unset">
       <template #="{ data: anon }">
         <AnonComponent
           :anon="anon"
