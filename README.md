@@ -1,6 +1,12 @@
 # Anons NFT Rarity Scores
 
+****Note:** If you wish to use my project for your NFT collection, prefer using the [Anons S2 collection `anons-s2-secret-nft`](https://github.com/rigwild/anons-s2-secret-nft#deploy) version, is it a better and more generic one.**
+
+---
+
 This repository will list every rarity score for each Anons NFTs from https://www.anons.army/ on the [Secret Network](https://scrt.network/).
+
+Anons S2 "OGs" NFTs rarity scores: [rigwild/anons-s2-secret-nft](https://github.com/rigwild/anons-s2-secret-nft).
 
 The rarity score is calculed following [these formulas (`Rarity Score: How is it Calculated?` section)](https://raritytools.medium.com/ranking-rarity-understanding-rarity-calculation-methods-86ceaeb9b98c#2942).
 
